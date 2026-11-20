@@ -4,6 +4,18 @@
 
 This project was built with [Lovable](https://lovable.dev).
 
+## GitHub Pages (เปิดให้ใช้งานได้จริง)
+
+1. เปิด Project settings → Git → GitHub แล้วกด Connect (ระบบสร้างที่เก็บโค้ดส่วนตัวใหม่ในบัญชีคุณ)
+2. ไปที่ Settings → Pages ของที่เก็บโค้ด แล้วเลือก Source เป็น **GitHub Actions**
+3. เปิด Actions tab แล้วรันทีชือ **Deploy dashboard to GitHub Pages** (กด Run workflow)
+4. เปิด **Update market data** ด้วย เพื่อดึงข้อมูลล่านสุด (อัตโนมัติทุกวัน จ.–ศ. 04:47 และ 18:13 เวลาไทย)
+
+ที่อยู่เว็บจะเป็น `https://<ชื่อบัญชี>.github.io/<ชื่อที่เก็บโค้ด>/`
+
+- ไฟล์ทีกินทีกินหน้า: `.github/workflows/deploy-pages.yml` คัด `public/dashboard` เป็นตั่วเว็บทังหมด
+- ถ้าทียังเป็นส่วนตัว (private) ที่อยู่เว็บจะเปิดให้คนที่มีสทิธเิข้าที่เก็บโค้ดเท่านั้น on the Free plan — ตองการใหทุ้กคนเห็น ใหเปลียนที่เก็บโค้ดเป็น public
+
 ## Build with Lovable
 
 Continue developing this project in the [Lovable editor](https://lovable.dev/projects/24a9f27b-2c19-4304-a94b-f04472d26732).

@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Technical Chart</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="assets/style.css?v=20261120d">
+<link rel="stylesheet" href="assets/mascot.css">
+</head>
+<body>
+<div class="wrap">
+  <a class="back no-print" href="index.html">← กลับไป Market Dashboard</a>
+  <div class="chart-head">
+    <div>
+      <div class="print-only print-brand">Global Market Technical Dashboard</div>
+      <h1 id="title">Technical Chart</h1>
+      <div class="src" id="src"></div>
+      <div class="src print-only" id="print-meta"></div>
+    </div>
+    <div class="ranges no-print" id="ranges">
+      <button data-r="1M">1M</button><button data-r="3M">3M</button><button data-r="6M">6M</button><button data-r="1Y" class="on">1Y</button><button data-r="All">All</button>
+    </div>
+  </div>
+
+  <div class="chart-layout">
+    <section class="card">
+      <div class="toolbar no-print">
+        <div class="toggles" id="toggles">
+          <span class="muted">แสดง:</span>
+          <label><input type="checkbox" data-k="ema50"> EMA50</label>
+          <label><input type="checkbox" data-k="ema200"> EMA200</label>
+          <label><input type="checkbox" data-k="rsi"> RSI</label>
+          <label><input type="checkbox" data-k="sr"> แนวรับ/แนวต้าน</label>
+        </div>
+        <button class="btn" id="export" type="button" title="เปิดหน้าต่างพิมพ์ แล้วเลือก Save as PDF">⤓ Export PDF</button>
+      </div>
+      <div class="legend-line">
+        <span data-k="ema50"><i style="background:var(--ema50)"></i>EMA50</span>
+        <span data-k="ema200"><i style="background:var(--ema200)"></i>EMA200</span>
+        <span data-k="sr"><i class="dash" style="border-color:var(--support)"></i>แนวรับ (S)</span>
+        <span data-k="sr"><i class="dash" style="border-color:var(--resist)"></i>แนวต้าน (R)</span>
+        <span data-k="rsi" class="muted">ช่องล่าง: RSI(14) เส้น 70 / 30</span>
+        <span data-k="sr" class="muted">เส้นหนา = โซนที่ราคาแตะบ่อย</span>
+      </div>
+      <div id="tvchart"></div>
+      <img id="print-chart" alt="">
+    </section>
+
+    <aside class="card info">
+      <table>
+        <tr class="head"><th>แนวโน้มหลัก</th><td id="i-trend">–</td></tr>
+        <tr><th>ราคาล่าสุด</th><td id="i-last">–</td></tr>
+        <tr><th>แนวรับ</th><td id="i-sup">–</td></tr>
+        <tr><th>แนวต้าน</th><td id="i-res">–</td></tr>
+        <tr><th>RSI (Signal)</th><td id="i-rsi">–</td></tr>
+      </table>
+      <div class="narr"><h3>แนวโน้ม:</h3><p id="narr" style="margin:0"></p></div>
+      <p class="muted" id="i-note" style="font-size:12px;margin:12px 0 0"></p>
+    </aside>
+  </div>
+  <footer class="foot" id="foot"></footer>
+</div>
+<script src="assets/vendor/lightweight-charts.standalone.production.js"></script>
+<script src="assets/common.js?v=20261120d"></script>
+<script src="assets/analysis.js?v=20261120d"></script>
+<script src="assets/techchart.js?v=20261120d"></script>
+<script src="assets/chart.js?v=20261120d"></script>
+<script src="assets/mascot.js"></script>
+</body>
+</html>
