@@ -1,0 +1,334 @@
+{
+ "benchmark": {
+  "id": "ACWI",
+  "name": "MSCI ACWI (ETF)",
+  "source": "NASDAQ:ACWI",
+  "yahoo": [
+   "ACWI"
+  ]
+ },
+ "extra": {
+  "HYG": {
+   "tv": "AMEX:HYG",
+   "yahoo": [
+    "HYG"
+   ]
+  },
+  "IEF": {
+   "tv": "NASDAQ:IEF",
+   "yahoo": [
+    "IEF"
+   ]
+  },
+  "COPPER": {
+   "tv": "COMEX:HG1!",
+   "yahoo": [
+    "HG=F"
+   ]
+  }
+ },
+ "assets": [
+  {
+   "id": "SPX",
+   "name": "S&P 500",
+   "group": "หุ้นสหรัฐฯ",
+   "kind": "equity",
+   "color": "#1f4e9c",
+   "unit": "level",
+   "source": "SP:SPX",
+   "yahoo": [
+    "^GSPC"
+   ]
+  },
+  {
+   "id": "IXIC",
+   "name": "Nasdaq Composite",
+   "group": "หุ้นสหรัฐฯ",
+   "kind": "equity",
+   "color": "#3a7bd5",
+   "unit": "level",
+   "source": "NASDAQ:IXIC",
+   "yahoo": [
+    "^IXIC"
+   ]
+  },
+  {
+   "id": "NDX",
+   "name": "Nasdaq 100",
+   "group": "หุ้นสหรัฐฯ",
+   "kind": "equity",
+   "color": "#5b4bc4",
+   "unit": "level",
+   "source": "NASDAQ:NDX",
+   "yahoo": [
+    "^NDX"
+   ]
+  },
+  {
+   "id": "RUT",
+   "name": "Russell 2000",
+   "group": "หุ้นสหรัฐฯ",
+   "kind": "equity",
+   "color": "#0f3460",
+   "unit": "level",
+   "source": "TVC:RUT",
+   "yahoo": [
+    "^RUT"
+   ]
+  },
+  {
+   "id": "SXXP",
+   "name": "STOXX 600",
+   "group": "หุ้นยุโรป",
+   "kind": "equity",
+   "color": "#8e44ad",
+   "unit": "level",
+   "source": "TVC:SXXP",
+   "yahoo": [
+    "^STOXX"
+   ]
+  },
+  {
+   "id": "NI225",
+   "name": "Nikkei 225",
+   "group": "หุ้นญี่ปุ่น",
+   "kind": "equity",
+   "color": "#00897b",
+   "unit": "level",
+   "source": "TVC:NI225",
+   "yahoo": [
+    "^N225"
+   ]
+  },
+  {
+   "id": "TOPIX",
+   "name": "TOPIX",
+   "group": "หุ้นญี่ปุ่น",
+   "kind": "equity",
+   "color": "#26a69a",
+   "unit": "level",
+   "source": "TSE:TOPIX",
+   "yahoo": [
+    "^TOPX"
+   ]
+  },
+  {
+   "id": "CSI300",
+   "name": "CSI 300",
+   "group": "หุ้นจีน",
+   "kind": "equity",
+   "color": "#c0392b",
+   "unit": "level",
+   "source": "SSE:000300",
+   "yahoo": [
+    "000300.SS"
+   ]
+  },
+  {
+   "id": "SSEC",
+   "name": "SSE Composite",
+   "group": "หุ้นจีน",
+   "kind": "equity",
+   "color": "#e74c3c",
+   "unit": "level",
+   "source": "SSE:000001",
+   "yahoo": [
+    "000001.SS"
+   ]
+  },
+  {
+   "id": "HSI",
+   "name": "Hang Seng Index",
+   "group": "หุ้นฮ่องกง",
+   "kind": "equity",
+   "color": "#a93226",
+   "unit": "level",
+   "source": "TVC:HSI",
+   "yahoo": [
+    "^HSI"
+   ]
+  },
+  {
+   "id": "HSTECH",
+   "name": "Hang Seng Tech",
+   "group": "หุ้นฮ่องกง",
+   "kind": "equity",
+   "color": "#d35400",
+   "unit": "level",
+   "source": "HSI:HSTECH",
+   "yahoo": [
+    "^HSTECH"
+   ]
+  },
+  {
+   "id": "HSCEI",
+   "name": "HSCEI",
+   "group": "หุ้นจีนในฮ่องกง",
+   "kind": "equity",
+   "color": "#b9770e",
+   "unit": "level",
+   "source": "HSI:HSCEI",
+   "yahoo": [
+    "^HSCE"
+   ]
+  },
+  {
+   "id": "SENSEX",
+   "name": "Sensex",
+   "group": "หุ้นอินเดีย",
+   "kind": "equity",
+   "color": "#f39c12",
+   "unit": "level",
+   "source": "BSE:SENSEX",
+   "yahoo": [
+    "^BSESN"
+   ]
+  },
+  {
+   "id": "KOSPI",
+   "name": "KOSPI",
+   "group": "หุ้นเกาหลีใต้",
+   "kind": "equity",
+   "color": "#d63384",
+   "unit": "level",
+   "source": "KRX:KOSPI",
+   "yahoo": [
+    "^KS11"
+   ]
+  },
+  {
+   "id": "SET",
+   "name": "SET Index",
+   "group": "หุ้นไทย",
+   "kind": "equity",
+   "color": "#6a1b9a",
+   "unit": "level",
+   "source": "SET:SET",
+   "yahoo": [
+    "^SET.BK"
+   ]
+  },
+  {
+   "id": "US10Y",
+   "name": "US 10-Year Yield",
+   "group": "พันธบัตรสหรัฐฯ",
+   "kind": "other",
+   "color": "#546e7a",
+   "unit": "yield",
+   "source": "TVC:US10Y",
+   "yahoo": [
+    "^TNX"
+   ]
+  },
+  {
+   "id": "US02Y",
+   "name": "US 2-Year Yield",
+   "group": "พันธบัตรสหรัฐฯ",
+   "kind": "other",
+   "color": "#90a4ae",
+   "unit": "yield",
+   "source": "TVC:US02Y",
+   "yahoo": [
+    "2YY=F"
+   ]
+  },
+  {
+   "id": "XAUUSD",
+   "name": "Gold Spot",
+   "group": "สินค้าโภคภัณฑ์",
+   "kind": "other",
+   "color": "#b8860b",
+   "unit": "level",
+   "source": "OANDA:XAUUSD",
+   "yahoo": [
+    "GC=F"
+   ]
+  },
+  {
+   "id": "BRENT",
+   "name": "Brent Oil",
+   "group": "พลังงาน",
+   "kind": "other",
+   "color": "#3e2723",
+   "unit": "level",
+   "source": "TVC:UKOIL",
+   "yahoo": [
+    "BZ=F"
+   ]
+  },
+  {
+   "id": "USDTHB",
+   "name": "USD/THB",
+   "group": "อัตราแลกเปลี่ยน",
+   "kind": "other",
+   "color": "#2e7d32",
+   "unit": "level",
+   "source": "FX_IDC:USDTHB",
+   "yahoo": [
+    "THB=X"
+   ]
+  },
+  {
+   "id": "DXY",
+   "name": "US Dollar Index",
+   "group": "อัตราแลกเปลี่ยน",
+   "kind": "other",
+   "color": "#00695c",
+   "unit": "level",
+   "source": "TVC:DXY",
+   "yahoo": [
+    "DX-Y.NYB"
+   ]
+  },
+  {
+   "id": "VIX",
+   "name": "VIX",
+   "group": "ความผันผวน",
+   "kind": "other",
+   "color": "#c62828",
+   "unit": "level",
+   "source": "TVC:VIX",
+   "yahoo": [
+    "^VIX"
+   ]
+  }
+ ],
+ "riskComponents": [
+  {
+   "key": "breadth",
+   "name": "Breadth หุ้นโลก",
+   "desc": "% ของดัชนีหุ้น 15 ตัวที่ยืนเหนือ EMA50",
+   "sign": 1
+  },
+  {
+   "key": "eq_gold",
+   "name": "หุ้นโลก / ทองคำ",
+   "desc": "ACWI ÷ ทองคำ เปลี่ยนแปลง 20 วัน",
+   "sign": 1
+  },
+  {
+   "key": "credit",
+   "name": "Credit (HYG / IEF)",
+   "desc": "หุ้นกู้ high yield ÷ พันธบัตรรัฐบาล เปลี่ยนแปลง 20 วัน",
+   "sign": 1
+  },
+  {
+   "key": "cu_gold",
+   "name": "ทองแดง / ทองคำ",
+   "desc": "ทองแดง ÷ ทองคำ เปลี่ยนแปลง 20 วัน",
+   "sign": 1
+  },
+  {
+   "key": "vix",
+   "name": "VIX",
+   "desc": "ระดับ VIX (ยิ่งต่ำยิ่ง risk-on)",
+   "sign": -1
+  },
+  {
+   "key": "dollar",
+   "name": "ดอลลาร์ (DXY)",
+   "desc": "DXY เปลี่ยนแปลง 20 วัน (ดอลลาร์แข็ง = risk-off)",
+   "sign": -1
+  }
+ ]
+}

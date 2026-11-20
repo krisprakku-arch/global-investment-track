@@ -28,3 +28,6 @@ use the editor.
   own key and store it in Secrets.
 - **Secrets.** Lovable manages them. Do not put secret values in the repo.
 <!-- LOVABLE:END -->
+
+## Market data pipeline
+- `scripts/update_data.py` rebuilds `public/dashboard/data/` (TradingView first, Yahoo fallback) and `.github/workflows/update-data.yml` runs it twice daily and commits the result; keep the JSON shape in sync with `public/dashboard/assets/*.js`, which reads it directly.
