@@ -1,0 +1,11 @@
+.mascot{position:fixed;right:16px;bottom:16px;z-index:9999;display:flex;flex-direction:column;align-items:flex-end;font-family:Sarabun,sans-serif}
+.mascot-btn{background:none;border:0;padding:0;cursor:pointer;animation:mascot-bob 2.4s ease-in-out infinite}
+.mascot-btn img{width:88px;height:88px;image-rendering:pixelated;filter:drop-shadow(0 4px 6px rgba(0,0,0,.25))}
+.mascot.jump .mascot-btn img{animation:mascot-jump .5s ease}
+.mascot-bubble{max-width:220px;background:#fff;color:#1a1a1a;border:3px solid #1a1a1a;border-radius:6px;padding:8px 10px;font-size:14px;line-height:1.4;box-shadow:4px 4px 0 #1a1a1a;margin-bottom:6px;opacity:0;transform:translateY(6px);transition:.25s;pointer-events:none}
+.mascot-bubble.show{opacity:1;transform:none}
+.mascot-x{position:absolute;bottom:72px;right:-4px;width:20px;height:20px;border-radius:50%;border:2px solid #1a1a1a;background:#fff;font-size:13px;line-height:14px;cursor:pointer;padding:0}
+@keyframes mascot-bob{50%{transform:translateY(-6px)}}
+@keyframes mascot-jump{40%{transform:translateY(-22px) rotate(-8deg)}}
+@media print{.mascot{display:none}}
+@media (max-width:600px){.mascot-btn img{width:64px;height:64px}.mascot-x{bottom:52px}}

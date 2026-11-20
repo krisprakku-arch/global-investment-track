@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Global Market Technical Dashboard</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="assets/style.css?v=20261120d">
+<link rel="stylesheet" href="assets/mascot.css">
+</head>
+<body>
+<header class="masthead">
+  <div class="mast-inner">
+    <div class="brand">
+      <span class="eyebrow">Global Markets · Technical Desk</span>
+      <h1>Global Market Technical Dashboard</h1>
+    </div>
+    <div class="mast-meta">
+      <div><span class="live-dot"></span><span id="asof">กำลังโหลดข้อมูล…</span></div>
+      <div>อัปเดตอัตโนมัติ 04:47 (ก่อนตลาดเอเชียเปิด) และ 18:13 น. (เวลาไทย)</div>
+    </div>
+  </div>
+  <div class="clocks" id="clocks" aria-label="เวลาท้องถิ่นและสถานะตลาด"></div>
+</header>
+<div class="ticker-shell" aria-label="ระดับดัชนีล่าสุดและการเปลี่ยนแปลงรายวัน">
+  <div class="ticker-track" id="ticker"></div>
+</div>
+<nav class="secnav" id="secnav" aria-label="ไปยังส่วนต่างๆ">
+  <div class="secnav-inner">
+    <a href="#overview">ภาพรวม</a>
+    <a href="#summary">ตารางสรุป</a>
+    <a href="#performance" data-tab="performance">Performance</a>
+    <a href="#rotation" data-tab="rotation">Market Rotation</a>
+    <a href="#rrg" data-tab="rrg">RRG</a>
+    <a href="#glossary">Glossary</a>
+    <a class="nav-pack" href="pack.html" target="_blank" rel="noopener" title="รวมกราฟเทคนิคทุกสินทรัพย์เป็น PDF ไฟล์เดียว">⤓ Chart Pack (PDF)</a>
+  </div>
+</nav>
+<div class="wrap">
+
+  <section id="overview" class="anchor">
+    <div class="pulse" id="pulse"></div>
+
+    <div class="macro-grid">
+      <section class="card risk-card" id="risk" hidden>
+        <div class="card-head">
+          <div>
+            <h2>Risk-On / Risk-Off Gauge</h2>
+            <p class="sub" id="risk-sub">6 สัญญาณข้ามสินทรัพย์ · 50 = ระดับปกติของรอบ 1 ปี</p>
+          </div>
+        </div>
+        <div class="risk-grid">
+          <div class="risk-dial" id="risk-dial"></div>
+          <div class="risk-comps" id="risk-comps"></div>
+        </div>
+        <div class="risk-hist">
+          <div id="risk-hist"></div>
+          <div class="risk-curve" id="risk-curve"></div>
+        </div>
+        <details class="risk-method">
+          <summary>วิธีคำนวณ</summary>
+          <ol>
+            <li>แต่ละสัญญาณถูกแปลงเป็น <b>percentile เทียบกับตัวเองในรอบ 252 วันทำการ</b> (0 = ต่ำสุดของปี, 100 = สูงสุดของปี) ใช้เฉพาะข้อมูลถึงวันนั้น ไม่มองไปข้างหน้า</li>
+            <li>สัญญาณที่ค่าสูงแปลว่ากลัว (VIX, ดอลลาร์แข็ง) จะกลับด้าน (100 − percentile)</li>
+            <li>คะแนน = ค่าเฉลี่ยของทุกสัญญาณ · ≥ 70 Risk-On · 55–70 เอียง Risk-On · 45–55 Neutral · 30–45 เอียง Risk-Off · ≤ 30 Risk-Off</li>
+            <li>ทุกสัญญาณเทียบบนปฏิทินวันทำการของตลาดสหรัฐฯ (ตาม ACWI) เพื่อให้อัตราส่วนเทียบวันเดียวกันเสมอ</li>
+            <li>Yield curve 2s10s แสดงประกอบเท่านั้น ไม่นับในคะแนน เพราะ yield ขึ้นได้ทั้งตอนตลาดกล้าเสี่ยงและตอนกังวลเงินเฟ้อ</li>
+          </ol>
+          <p class="muted">ชี้ที่แต่ละแถบเพื่อดูความหมายของสัญญาณ · เป็นเครื่องมือดูภาวะตลาด ไม่ใช่สัญญาณซื้อขาย · HYG/IEF และทองแดง (HG1!) ใช้คำนวณเท่านั้น</p>
+        </details>
+      </section>
+
+      <section class="card xasset-card">
+        <h2>Cross-Asset</h2>
+        <p class="sub">พันธบัตร · ดอลลาร์ · ค่าเงิน · สินค้าโภคภัณฑ์ · ความผันผวน · กราฟเส้น 3 เดือน</p>
+        <div class="xasset" id="xasset"></div>
+      </section>
+    </div>
+
+    <div class="overview-grid">
+      <section class="card map-card">
+        <div class="card-head">
+          <div>
+            <h2>Daily Change Map</h2>
+            <p class="sub">ดัชนีหุ้นเทียบราคาปิดวันก่อนหน้า · ขนาด bubble ตามขนาดการเปลี่ยนแปลง · คลิกเพื่อเปิดกราฟ</p>
+          </div>
+          <div class="map-legend" id="map-legend"></div>
+        </div>
+        <div class="scroll-x"><div id="worldmap" class="worldmap"></div></div>
+      </section>
+
+      <aside class="side-col">
+        <section class="card">
+          <h2>Top Movers</h2>
+          <p class="sub">อันดับการเปลี่ยนแปลงวันนี้ของดัชนีหุ้นทั้ง 15 ตัว</p>
+          <div class="movers" id="movers"></div>
+        </section>
+      </aside>
+    </div>
+  </section>
+
+  <section class="card anchor" id="summary">
+    <div class="card-head">
+      <div>
+        <h2>ตารางสรุป</h2>
+        <p class="sub">คลิกชื่อเพื่อดู Technical Chart · คลิกหัวคอลัมน์เพื่อเรียงลำดับ · คลิก Strategy เพื่อดู <a href="#glossary">คำอธิบาย</a></p>
+      </div>
+      <div class="seg" id="region-filter" role="group" aria-label="กรองตามภูมิภาค"></div>
+    </div>
+    <div class="scroll-x">
+      <table class="sum" id="sum"></table>
+    </div>
+  </section>
+
+  <section class="card anchor" id="analysis">
+    <div class="tabs" role="tablist" id="tabs">
+      <button role="tab" data-tab="performance" id="tab-performance" aria-controls="pane-performance">Performance</button>
+      <button role="tab" data-tab="rotation" id="tab-rotation" aria-controls="pane-rotation">Market Rotation</button>
+      <button role="tab" data-tab="rrg" id="tab-rrg" aria-controls="pane-rrg">Relative Rotation Graph</button>
+    </div>
+
+    <div class="pane" role="tabpanel" id="pane-performance" aria-labelledby="tab-performance">
+      <p class="sub">ผลตอบแทนในสกุลเงินท้องถิ่น (ไม่รวม bond yield และ VIX) · เลือกช่วงเวลาเพื่อเรียงลำดับ · ชี้ที่แถวเพื่อดูครบทุกช่วง · Heatmap: ระดับสีกว้างขึ้นตามความยาวช่วงเวลา</p>
+      <div class="perf-ctl" id="perf-ctl"></div>
+      <div class="scroll-x"><div id="perf"></div></div>
+    </div>
+
+    <div class="pane" role="tabpanel" id="pane-rotation" aria-labelledby="tab-rotation" hidden>
+      <p class="sub">ผลตอบแทนรายเดือนย้อนหลัง 6 เดือน เรียงจากดีที่สุดลงไป · เดือนล่าสุดเป็น MTD · สีตามผลตอบแทน (เขียว = บวก, แดง = ลบ, เข้ม = มาก) · ชี้ที่ช่องเพื่อไล่ดูสินทรัพย์เดียวกันทุกเดือน</p>
+      <div class="rot-legend" id="rot-legend" aria-label="สีตามผลตอบแทนรายเดือน"></div>
+      <div class="scroll-x">
+        <div class="rot-side"><span>Best ▲</span><span></span></div>
+        <div class="rot" id="rot"></div>
+        <div class="rot-side"><span>Worst ▼</span><span></span></div>
+      </div>
+    </div>
+
+    <div class="pane" role="tabpanel" id="pane-rrg" aria-labelledby="tab-rrg" hidden>
+      <p class="sub" id="rrg-sub">ดัชนีหุ้นเทียบ MSCI ACWI · รายสัปดาห์ · หาง 8 สัปดาห์</p>
+      <div class="rrg-layout">
+        <div id="rrg"></div>
+        <div class="rrg-legend" id="rrg-legend"></div>
+      </div>
+    </div>
+  </section>
+
+  <details class="card collapsible anchor" id="glossary">
+    <summary><h2>คำอธิบาย Strategy (Glossary)</h2><span class="toggle-hint"></span></summary>
+    <p class="sub">ระบบตรวจเงื่อนไขจากบนลงล่าง และใช้ข้อแรกที่ตรง · ระยะห่างจาก High = ราคาปิดล่าสุดเทียบกับจุดสูงสุดในรอบ 52 สัปดาห์ (252 วันทำการ) · คำนวณจากราคาปิดรายวันล่าสุด</p>
+    <div class="scroll-x">
+      <table class="gloss">
+        <thead><tr><th>ลำดับ</th><th>Strategy</th><th>เงื่อนไขที่ทำให้ขึ้น flag</th><th>อ่านอย่างไร / Action</th></tr></thead>
+        <tbody>
+          <tr>
+            <td class="num">1</td>
+            <td><span class="chip s-AVOID">❌ AVOID</span></td>
+            <td><b>ดัชนีหุ้น:</b> อยู่ใน quadrant <span class="chip q-Lagging">Lagging</span> บน RRG<br><b>สินทรัพย์อื่น</b> (ทอง, น้ำมัน, USD/THB, DXY): แนวโน้มเป็น DOWNTREND<br><span class="muted">US10Y, US2Y และ VIX ไม่มี Strategy เพราะไม่ใช่กราฟราคา (เป็นอัตราผลตอบแทนพันธบัตรและดัชนีความกลัว)</span><br><span class="muted">มีสิทธิ์เหนือกฎข้ออื่นทั้งหมด</span></td>
+            <td>ตลาดอ่อนกว่าภาพรวมโลกและโมเมนตัมยังแย่ลง ราคาที่ลงมาเยอะอาจไม่ใช่ "ของถูก" แต่เป็น falling knife · <b>ลดน้ำหนักหรือหลีกเลี่ยงไปก่อน</b></td>
+          </tr>
+          <tr>
+            <td class="num">2</td>
+            <td><span class="chip s-BREAKOUT">🚀 BREAKOUT</span></td>
+            <td>ห่างจาก High <b>น้อยกว่า 2%</b> (ทำ New High หรือจ่อเบรกไฮ)</td>
+            <td>แข็งแรงที่สุด แต่ราคาแพงแล้ว · <b>คนมีของ:</b> Let profit run · <b>คนไม่มีของ:</b> ระวังไล่ราคา เพราะต้นทุนสูง</td>
+          </tr>
+          <tr>
+            <td class="num">3</td>
+            <td><span class="chip s-BUY-DIP">🟢 BUY DIP</span></td>
+            <td>ห่างจาก High <b>-2% ถึง -10%</b> และราคา<b>ยังยืนเหนือ EMA50</b></td>
+            <td>ยังเป็นขาขึ้น แต่ย่อตัวลงมาในโซนปลอดภัย · <b>จังหวะเข้า "ไม้แรก" หรือซื้อเพิ่มที่ได้เปรียบที่สุด</b></td>
+          </tr>
+          <tr>
+            <td class="num">4</td>
+            <td><span class="chip s-WATCH">⚠️ WATCH</span></td>
+            <td>ห่างจาก High <b>-2% ถึง -10%</b> แต่ราคา<b>หลุดต่ำกว่า EMA50</b> แล้ว</td>
+            <td>ย่อตัวแล้วทรงเริ่มเสีย · <b>อย่าเพิ่งรับมีด</b> รอให้กราฟกลับมายืนเหนือ EMA50 ได้ก่อน</td>
+          </tr>
+          <tr>
+            <td class="num">5</td>
+            <td><span class="chip s-CORRECTION">📉 CORRECTION</span></td>
+            <td>ห่างจาก High <b>มากกว่า -10%</b></td>
+            <td>พักตัวลึกเกินไป · <b>ระวังจนกว่าโมเมนตัมจะกลับมา</b> ให้ดูประกอบกับ quadrant (Improving = เริ่มฟื้น) และ Bullish divergence ในหน้ากราฟ</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3 class="gh">ตัวประกอบที่ใช้ตัดสิน</h3>
+    <div class="gloss-grid">
+      <div>
+        <b>แนวโน้ม (Trend)</b>
+        <ul>
+          <li><span class="chip t-UPTREND">▲ UPTREND</span> ราคา &gt; EMA50 &gt; EMA200</li>
+          <li><span class="chip t-DOWNTREND">▼ DOWNTREND</span> ราคา &lt; EMA50 &lt; EMA200</li>
+          <li><span class="chip t-SIDEWAYS">► SIDEWAYS</span> กรณีอื่นทั้งหมด เช่น ราคาอยู่ระหว่าง 2 เส้น</li>
+        </ul>
+      </div>
+      <div>
+        <b>Quadrant (RRG เทียบ MSCI ACWI)</b>
+        <ul>
+          <li><span class="chip q-Leading">Leading</span> แข็งกว่าตลาดโลก และยังแข็งขึ้น</li>
+          <li><span class="chip q-Weakening">Weakening</span> แข็งกว่าตลาดโลก แต่เริ่มแผ่ว</li>
+          <li><span class="chip q-Lagging">Lagging</span> อ่อนกว่าตลาดโลก และยังอ่อนลง</li>
+          <li><span class="chip q-Improving">Improving</span> อ่อนกว่าตลาดโลก แต่เริ่มฟื้น</li>
+        </ul>
+        <span class="muted">วงจรปกติหมุนตามเข็มนาฬิกา: Improving → Leading → Weakening → Lagging · มีเฉพาะดัชนีหุ้น</span>
+      </div>
+      <div>
+        <b>RSI (14) ในหน้ากราฟ</b>
+        <ul>
+          <li><b>Overbought</b> RSI ≥ 70 · <b>Oversold</b> RSI ≤ 30 · นอกนั้น Neutral</li>
+          <li><b>Bullish divergence</b> ราคาทำจุดต่ำใหม่ แต่ RSI ทำจุดต่ำที่สูงขึ้น = แรงขายเริ่มหมด</li>
+          <li><b>Bearish divergence</b> ราคาทำจุดสูงใหม่ แต่ RSI ทำจุดสูงที่ต่ำลง = แรงซื้อเริ่มหมด</li>
+        </ul>
+      </div>
+    </div>
+    <p class="muted" style="margin:12px 0 0;font-size:12px">Strategy เป็นการคัดกรองเชิงปริมาณตามกฎด้านบนเท่านั้น ควรดูกราฟและแนวรับแนวต้านประกอบเสมอ · ไม่ใช่คำแนะนำการลงทุน</p>
+  </details>
+
+  <footer class="foot" id="foot">ที่มา: TradingView</footer>
+</div>
+<script src="assets/vendor/d3.min.js"></script>
+<script src="assets/vendor/topojson-client.min.js"></script>
+<script src="assets/common.js?v=20261120d"></script>
+<script src="assets/worldmap.js?v=20261120d"></script>
+<script src="assets/overview.js?v=20261120d"></script>
+<script src="assets/dashboard.js?v=20261120d"></script>
+<script src="assets/mascot.js"></script>
+</body>
+</html>

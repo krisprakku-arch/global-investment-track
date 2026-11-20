@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="th" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Technical Chart Pack</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="assets/style.css?v=20261120d">
+<link rel="stylesheet" href="assets/pack.css?v=20261120d">
+<link rel="stylesheet" href="assets/mascot.css">
+</head>
+<body class="pack">
+<div class="pack-bar">
+  <a id="pack-back" href="index.html">← กลับไป Market Dashboard</a>
+  <span id="pack-status" role="status">กำลังโหลดข้อมูล…</span>
+  <progress id="pack-progress" max="1" value="0"></progress>
+  <button class="btn" id="pack-print" type="button" disabled title="เปิดหน้าต่างพิมพ์ แล้วเลือก Save as PDF">⤓ บันทึกเป็น PDF</button>
+</div>
+<div class="pack-hint">เมื่อสร้างกราฟครบแล้ว กดปุ่ม <b>บันทึกเป็น PDF</b> ด้านบน · ในหน้าต่างพิมพ์ ให้เลือกปลายทาง <b>Save as PDF</b> · ขนาด A4 แนวนอน · ถ้าพื้นหลังหน้าปกไม่ขึ้น ให้ติ๊ก <b>Background graphics</b></div>
+<div id="pack-stage" aria-hidden="true"></div>
+<main class="pages" id="pages"></main>
+<script src="assets/vendor/lightweight-charts.standalone.production.js"></script>
+<script src="assets/common.js?v=20261120d"></script>
+<script src="assets/analysis.js?v=20261120d"></script>
+<script src="assets/techchart.js?v=20261120d"></script>
+<script src="assets/pack.js?v=20261120d"></script>
+<script src="assets/mascot.js"></script>
+</body>
+</html>
