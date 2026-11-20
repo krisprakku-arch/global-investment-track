@@ -9,3 +9,5 @@
 @keyframes mascot-jump{40%{transform:translateY(-22px) rotate(-8deg)}}
 @media print{.mascot{display:none}}
 @media (max-width:600px){.mascot-btn img{width:64px;height:64px}.mascot-x{bottom:52px}}
+.mascot-sw{position:absolute;bottom:72px;left:-6px;width:24px;height:24px;border-radius:50%;border:2px solid #1a1a1a;background:#ffd54a;font-size:13px;line-height:18px;cursor:pointer;padding:0}
+@media (max-width:600px){.mascot-sw{bottom:52px}}
