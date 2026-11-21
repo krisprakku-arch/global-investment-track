@@ -9,7 +9,7 @@ This project was built with [Lovable](https://lovable.dev).
 1. เปิด Project settings → Git → GitHub แล้วกด Connect (ระบบสร้างที่เก็บโค้ดส่วนตัวใหม่ในบัญชีคุณ)
 2. ไปที่ Settings → Pages ของที่เก็บโค้ด แล้วเลือก Source เป็น **GitHub Actions**
 3. เปิด Actions tab แล้วรันทีชือ **Deploy dashboard to GitHub Pages** (กด Run workflow)
-4. เปิด **Update market data** ด้วย เพื่อดึงข้อมูลล่านสุด (อัตโนมัติทุกวัน จ.–ศ. 04:47 และ 18:13 เวลาไทย)
+4. เปิด **Update market data** ด้วย เพื่อดึงข้อมูลล่านสุด (อัตโนมัติ 05:00, 09:00, 12:00, 15:00, 18:00 น. จันทร์–เสาร์ เวลาไทย)
 
 ที่อยู่เว็บจะเป็น `https://<ชื่อบัญชี>.github.io/<ชื่อที่เก็บโค้ด>/`
 
