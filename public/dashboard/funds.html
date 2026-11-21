@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BBLAM Fund Performance | กองทุนรวมบัวหลวง</title>
+<meta name="description" content="ค้นหากองทุนรวมบัวหลวง เปรียบเทียบผลตอบแทนย้อนหลังกับ Benchmark และส่วนต่างอัลฟ่า จาก SEC Open Data">
+<meta property="og:title" content="BBLAM Fund Performance | กองทุนรวมบัวหลวง">
+<meta property="og:description" content="ผลตอบแทนกองทุนบัวหลวง 3 เดือนถึง 5 ปี พร้อมเกณฑ์มาตรฐาน ความเสี่ยง และนโยบายการลงทุน">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="assets/style.css?v=20261120d">
+<link rel="stylesheet" href="assets/funds.css?v=1">
+</head>
+<body class="fund-page">
+<header class="masthead"><div class="mast-inner">
+ <div class="brand"><span class="eyebrow">Fund Research · SEC Open Data</span><h1>กองทุนรวมบัวหลวง <span lang="en">BBLAM</span></h1></div>
+ <div class="mast-meta"><div id="fund-asof">กำลังโหลดข้อมูล…</div><div>ตรวจข้อมูล 05:00, 09:00, 12:00, 15:00, 18:00 น.<br>จันทร์–เสาร์ เวลาไทย · Factsheet รายเดือน</div></div>
+</div></header>
+<nav class="secnav" aria-label="สลับหน้าการลงทุน"><div class="secnav-inner">
+ <a href="index.html">Global Markets Desk</a><a href="funds.html" class="on" aria-current="page">กองทุนรวม บลจ.บัวหลวง (BBLAM)</a>
+</div></nav>
+<main class="wrap">
+ <section class="fund-intro"><div><h2>Fund Performance</h2><p>ผลตอบแทนกองทุน · เกณฑ์มาตรฐาน · ส่วนต่างอัลฟ่า</p></div><img src="assets/mascot-elephant.png" alt="ช้างทองพิกเซล"></section>
+ <div class="fund-status" id="fund-status" role="status">กำลังอ่านข้อมูลกองทุน…</div>
+ <div class="fund-controls">
+  <label class="fund-search" for="fund-search">ค้นหากองทุน<input id="fund-search" type="search" placeholder="B-INNOTECH, B-GLOBAL, BTP…" autocomplete="off"></label>
+  <label class="fund-period" for="fund-period">เรียงตามผลตอบแทน มาก → น้อย<select id="fund-period"><option value="3M">3 เดือน</option><option value="6M">6 เดือน</option><option value="1Y" selected>1 ปี</option><option value="3Y">3 ปี (ต่อปี)</option><option value="5Y">5 ปี (ต่อปี)</option><option value="YTD">YTD</option></select></label>
+ </div>
+ <div class="fund-filters" role="group" aria-label="หมวดหมู่กองทุน">
+  <label><input type="radio" name="category" value="all" checked>ทั้งหมด</label>
+  <label><input type="radio" name="category" value="foreign">หุ้นต่างประเทศ (Global / Tech / Asia)</label>
+  <label><input type="radio" name="category" value="thai">หุ้นไทย</label>
+  <label><input type="radio" name="category" value="bond">กองทุนตราสารหนี้</label>
+  <label><input type="radio" name="category" value="tax">กองทุนลดหย่อนภาษี (SSF / RMF / ThaiESG)</label>
+  <label><input type="radio" name="category" value="other">อื่น ๆ</label>
+ </div>
+ <section aria-label="ผลตอบแทนกองทุน">
+  <div class="fund-results-head"><h2 id="fund-count" aria-live="polite">กำลังโหลด…</h2><div class="fund-view" role="group" aria-label="รูปแบบแสดงผล"><label><input type="radio" name="view" value="table" checked>▤ ตาราง</label><label><input type="radio" name="view" value="cards">▦ การ์ด</label></div></div>
+  <div class="scroll-x" id="fund-table-wrap"><table class="sum" id="fund-table" aria-label="ผลตอบแทนกองทุนเทียบ Benchmark"></table></div>
+  <div class="fund-cards" id="fund-cards" hidden></div>
+  <div class="fund-empty" id="fund-empty" hidden>ไม่พบกองทุนที่ตรงกับคำค้นและหมวดหมู่</div>
+ </section>
+ <p class="fund-note">BM = Benchmark (เกณฑ์มาตรฐาน) · α = ผลตอบแทนกองทุน − Benchmark หน่วยจุดเปอร์เซ็นต์ ไม่ใช่อัลฟ่าที่ปรับความเสี่ยงแล้ว<br>3 เดือน, 6 เดือน, 1 ปี และ YTD เป็นผลตอบแทนช่วงเวลา · 3 ปีและ 5 ปีเป็นผลตอบแทนเฉลี่ยต่อปีตาม Factsheet · — = ไม่มีข้อมูลที่ยืนยัน / ข้อมูลไม่เพียงพอ<br>ผลการดำเนินงานในอดีตไม่ได้ยืนยันผลตอบแทนในอนาคต กองทุนลดหย่อนภาษีมีเงื่อนไขสิทธิและระยะเวลาถือครอง ควรอ่านหนังสือชี้ชวนก่อนลงทุน</p>
+ <footer class="foot">ที่มา: <a href="https://secopendata.sec.or.th/" target="_blank" rel="noopener">SEC Open Data</a> · <a href="https://www.bblam.co.th/" target="_blank" rel="noopener">บลจ.บัวหลวง</a> · ไม่ใช่เว็บไซต์ทางการของ BBLAM</footer>
+</main>
+<script src="assets/funds.js?v=1"></script>
+</body>
+</html>

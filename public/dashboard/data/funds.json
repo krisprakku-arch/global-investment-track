@@ -1,0 +1,503 @@
+{
+  "schemaVersion": 1,
+  "source": "Starter catalog — pending SEC verification",
+  "generated": null,
+  "status": "seed",
+  "funds": [
+    {
+      "symbol": "B-INNOTECH",
+      "name": "B-INNOTECH",
+      "category": "foreign",
+      "policy": "หุ้นกลุ่มเทคโนโลยีและนวัตกรรม — ข้อมูลหมวดหมู่เบื้องต้น รอยืนยันนโยบายฉบับเต็มจาก SEC",
+      "className": "main",
+      "projectId": null,
+      "risk": null,
+      "riskDescription": "",
+      "benchmarkName": "",
+      "asOf": null,
+      "status": "seed",
+      "performance": {
+        "3M": {
+          "fund": null,
+          "benchmark": null,
+          "alpha": null
+        },
+        "6M": {
+          "fund": null,
+          "benchmark": null,
+          "alpha": null
+        },
+        "1Y": {
+          "fund": null,
+          "benchmark": null,
+          "alpha": null
+        },
+        "3Y": {
+          "fund": null,
+          "benchmark": null,
+          "alpha": null
+        },
+        "5Y": {
+          "fund": null,
+          "benchmark": null,
+          "alpha": null
+        },
+        "YTD": {
+          "fund": null,
+          "benchmark": null,
+          "alpha": null
+        }
+      }
+    },
+    {
+      "symbol": "B-GLOBAL",
+      "name": "B-GLOBAL",
+      "category": "foreign",
+      "policy": "หุ้นต่างประเทศทั่วโลก — ข้อมูลหมวดหมู่เบื้องต้น รอยืนยันนโยบายฉบับเต็มจาก SEC",
+      "className": "main",
+      "projectId": null,
+      "risk": null,
+      "riskDescription": "",
+      "benchmarkName": "",
+      "asOf": null,
+      "status": "seed",
+      "performance": {
+        "3M": {
+          "fund": null,
+          "benchmark": null,
+          "alpha": null
+        },
+        "6M": {
+          "fund": null,
+          "benchmark": null,
+          "alpha": null
+        },
+        "1Y": {
+          "fund": null,
+          "benchmark": null,
+          "alpha": null
+        },
+        "3Y": {
+          "fund": null,
+          "benchmark": null,
+          "alpha": null
+        },
+        "5Y": {
+          "fund": null,
+          "benchmark": null,
+          "alpha": null
+        },
+        "YTD": {
+          "fund": null,
+          "benchmark": null,
+          "alpha": null
+        }
+      }
+    },
+    {
+      "symbol": "BTP",
+      "name": "BTP",
+      "category": "thai",
+      "policy": "หุ้นไทย — ข้อมูลหมวดหมู่เบื้องต้น รอยืนยันนโยบายฉบับเต็มจาก SEC",
+      "className": "main",
+      "projectId": null,
+      "risk": null,
+      "riskDescription": "",
+      "benchmarkName": "",
+      "asOf": null,
+      "status": "seed",
+      "performance": {
+        "3M": {
+          "fund": null,
+          "benchmark": null,
+          "alpha": null
+        },
+        "6M": {
+          "fund": null,
+          "benchmark": null,
+          "alpha": null
+        },
+        "1Y": {
+          "fund": null,
+          "benchmark": null,
+          "alpha": null
+        },
+        "3Y": {
+          "fund": null,
+          "benchmark": null,
+          "alpha": null
+        },
+        "5Y": {
+          "fund": null,
+          "benchmark": null,
+          "alpha": null
+        },
+        "YTD": {
+          "fund": null,
+          "benchmark": null,
+          "alpha": null
+        }
+      }
+    },
+    {
+      "symbol": "B-CHINE",
+      "name": "B-CHINE",
+      "category": "foreign",
+      "policy": "หุ้นจีน — ข้อมูลหมวดหมู่เบื้องต้น รอยืนยันนโยบายฉบับเต็มจาก SEC",
+      "className": "main",
+      "projectId": null,
+      "risk": null,
+      "riskDescription": "",
+      "benchmarkName": "",
+      "asOf": null,
+      "status": "seed",
+      "performance": {
+        "3M": {
+          "fund": null,
+          "benchmark": null,
+          "alpha": null
+        },
+        "6M": {
+          "fund": null,
+          "benchmark": null,
+          "alpha": null
+        },
+        "1Y": {
+          "fund": null,
+          "benchmark": null,
+          "alpha": null
+        },
+        "3Y": {
+          "fund": null,
+          "benchmark": null,
+          "alpha": null
+        },
+        "5Y": {
+          "fund": null,
+          "benchmark": null,
+          "alpha": null
+        },
+        "YTD": {
+          "fund": null,
+          "benchmark": null,
+          "alpha": null
+        }
+      }
+    },
+    {
+      "symbol": "B-BHARAT",
+      "name": "B-BHARAT",
+      "category": "foreign",
+      "policy": "หุ้นอินเดีย — ข้อมูลหมวดหมู่เบื้องต้น รอยืนยันนโยบายฉบับเต็มจาก SEC",
+      "className": "main",
+      "projectId": null,
+      "risk": null,
+      "riskDescription": "",
+      "benchmarkName": "",
+      "asOf": null,
+      "status": "seed",
+      "performance": {
+        "3M": {
+          "fund": null,
+          "benchmark": null,
+          "alpha": null
+        },
+        "6M": {
+          "fund": null,
+          "benchmark": null,
+          "alpha": null
+        },
+        "1Y": {
+          "fund": null,
+          "benchmark": null,
+          "alpha": null
+        },
+        "3Y": {
+          "fund": null,
+          "benchmark": null,
+          "alpha": null
+        },
+        "5Y": {
+          "fund": null,
+          "benchmark": null,
+          "alpha": null
+        },
+        "YTD": {
+          "fund": null,
+          "benchmark": null,
+          "alpha": null
+        }
+      }
+    },
+    {
+      "symbol": "B-FUTURE",
+      "name": "B-FUTURE",
+      "category": "foreign",
+      "policy": "หุ้นต่างประเทศ / ธีมอนาคต — ข้อมูลหมวดหมู่เบื้องต้น รอยืนยันนโยบายฉบับเต็มจาก SEC",
+      "className": "main",
+      "projectId": null,
+      "risk": null,
+      "riskDescription": "",
+      "benchmarkName": "",
+      "asOf": null,
+      "status": "seed",
+      "performance": {
+        "3M": {
+          "fund": null,
+          "benchmark": null,
+          "alpha": null
+        },
+        "6M": {
+          "fund": null,
+          "benchmark": null,
+          "alpha": null
+        },
+        "1Y": {
+          "fund": null,
+          "benchmark": null,
+          "alpha": null
+        },
+        "3Y": {
+          "fund": null,
+          "benchmark": null,
+          "alpha": null
+        },
+        "5Y": {
+          "fund": null,
+          "benchmark": null,
+          "alpha": null
+        },
+        "YTD": {
+          "fund": null,
+          "benchmark": null,
+          "alpha": null
+        }
+      }
+    },
+    {
+      "symbol": "B-EDTECH",
+      "name": "B-EDTECH",
+      "category": "foreign",
+      "policy": "หุ้นต่างประเทศ / เทคโนโลยี — ข้อมูลหมวดหมู่เบื้องต้น รอยืนยันนโยบายฉบับเต็มจาก SEC",
+      "className": "main",
+      "projectId": null,
+      "risk": null,
+      "riskDescription": "",
+      "benchmarkName": "",
+      "asOf": null,
+      "status": "seed",
+      "performance": {
+        "3M": {
+          "fund": null,
+          "benchmark": null,
+          "alpha": null
+        },
+        "6M": {
+          "fund": null,
+          "benchmark": null,
+          "alpha": null
+        },
+        "1Y": {
+          "fund": null,
+          "benchmark": null,
+          "alpha": null
+        },
+        "3Y": {
+          "fund": null,
+          "benchmark": null,
+          "alpha": null
+        },
+        "5Y": {
+          "fund": null,
+          "benchmark": null,
+          "alpha": null
+        },
+        "YTD": {
+          "fund": null,
+          "benchmark": null,
+          "alpha": null
+        }
+      }
+    },
+    {
+      "symbol": "BFIXED",
+      "name": "BFIXED",
+      "category": "bond",
+      "policy": "ตราสารหนี้ — ข้อมูลหมวดหมู่เบื้องต้น รอยืนยันนโยบายฉบับเต็มจาก SEC",
+      "className": "main",
+      "projectId": null,
+      "risk": null,
+      "riskDescription": "",
+      "benchmarkName": "",
+      "asOf": null,
+      "status": "seed",
+      "performance": {
+        "3M": {
+          "fund": null,
+          "benchmark": null,
+          "alpha": null
+        },
+        "6M": {
+          "fund": null,
+          "benchmark": null,
+          "alpha": null
+        },
+        "1Y": {
+          "fund": null,
+          "benchmark": null,
+          "alpha": null
+        },
+        "3Y": {
+          "fund": null,
+          "benchmark": null,
+          "alpha": null
+        },
+        "5Y": {
+          "fund": null,
+          "benchmark": null,
+          "alpha": null
+        },
+        "YTD": {
+          "fund": null,
+          "benchmark": null,
+          "alpha": null
+        }
+      }
+    },
+    {
+      "symbol": "B-TREASURY",
+      "name": "B-TREASURY",
+      "category": "bond",
+      "policy": "ตลาดเงิน / ตราสารหนี้ระยะสั้น — ข้อมูลหมวดหมู่เบื้องต้น รอยืนยันนโยบายฉบับเต็มจาก SEC",
+      "className": "main",
+      "projectId": null,
+      "risk": null,
+      "riskDescription": "",
+      "benchmarkName": "",
+      "asOf": null,
+      "status": "seed",
+      "performance": {
+        "3M": {
+          "fund": null,
+          "benchmark": null,
+          "alpha": null
+        },
+        "6M": {
+          "fund": null,
+          "benchmark": null,
+          "alpha": null
+        },
+        "1Y": {
+          "fund": null,
+          "benchmark": null,
+          "alpha": null
+        },
+        "3Y": {
+          "fund": null,
+          "benchmark": null,
+          "alpha": null
+        },
+        "5Y": {
+          "fund": null,
+          "benchmark": null,
+          "alpha": null
+        },
+        "YTD": {
+          "fund": null,
+          "benchmark": null,
+          "alpha": null
+        }
+      }
+    },
+    {
+      "symbol": "B-INNOTECHSSF",
+      "name": "B-INNOTECHSSF",
+      "category": "tax",
+      "policy": "กองทุนเพื่อการออม (SSF) — ข้อมูลหมวดหมู่เบื้องต้น รอยืนยันนโยบายฉบับเต็มจาก SEC",
+      "className": "main",
+      "projectId": null,
+      "risk": null,
+      "riskDescription": "",
+      "benchmarkName": "",
+      "asOf": null,
+      "status": "seed",
+      "performance": {
+        "3M": {
+          "fund": null,
+          "benchmark": null,
+          "alpha": null
+        },
+        "6M": {
+          "fund": null,
+          "benchmark": null,
+          "alpha": null
+        },
+        "1Y": {
+          "fund": null,
+          "benchmark": null,
+          "alpha": null
+        },
+        "3Y": {
+          "fund": null,
+          "benchmark": null,
+          "alpha": null
+        },
+        "5Y": {
+          "fund": null,
+          "benchmark": null,
+          "alpha": null
+        },
+        "YTD": {
+          "fund": null,
+          "benchmark": null,
+          "alpha": null
+        }
+      }
+    },
+    {
+      "symbol": "B-GLOBALRMF",
+      "name": "B-GLOBALRMF",
+      "category": "tax",
+      "policy": "กองทุนเพื่อการเลี้ยงชีพ (RMF) — ข้อมูลหมวดหมู่เบื้องต้น รอยืนยันนโยบายฉบับเต็มจาก SEC",
+      "className": "main",
+      "projectId": null,
+      "risk": null,
+      "riskDescription": "",
+      "benchmarkName": "",
+      "asOf": null,
+      "status": "seed",
+      "performance": {
+        "3M": {
+          "fund": null,
+          "benchmark": null,
+          "alpha": null
+        },
+        "6M": {
+          "fund": null,
+          "benchmark": null,
+          "alpha": null
+        },
+        "1Y": {
+          "fund": null,
+          "benchmark": null,
+          "alpha": null
+        },
+        "3Y": {
+          "fund": null,
+          "benchmark": null,
+          "alpha": null
+        },
+        "5Y": {
+          "fund": null,
+          "benchmark": null,
+          "alpha": null
+        },
+        "YTD": {
+          "fund": null,
+          "benchmark": null,
+          "alpha": null
+        }
+      }
+    }
+  ]
+}

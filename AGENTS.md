@@ -30,4 +30,6 @@ use the editor.
 <!-- LOVABLE:END -->
 
 ## Market data pipeline
-- `scripts/update_data.py` rebuilds `public/dashboard/data/` (TradingView first, Yahoo fallback) and `.github/workflows/update-data.yml` runs it twice daily and commits the result; keep the JSON shape in sync with `public/dashboard/assets/*.js`, which reads it directly.
+- `scripts/update_data.py` rebuilds `public/dashboard/data/` (TradingView first, Yahoo fallback) and `.github/workflows/update-data.yml` runs it five times Monday–Saturday in Bangkok time and commits the result; keep the JSON shape in sync with `public/dashboard/assets/*.js`, which reads it directly.
+- Fund data is fetched offline by `scripts/update_funds.py` using SEC v2 cursor pagination and a GitHub Actions secret; publish only normalized JSON so the static Pages site never handles credentials.
+- Match fund returns and benchmarks by project, share class and factsheet date; preserve caches on failure and represent unverified values as null to avoid fabricated or mismatched financial data.
