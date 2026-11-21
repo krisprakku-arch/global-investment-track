@@ -6,6 +6,10 @@ on:
     paths:
       - "public/dashboard/**"
       - ".github/workflows/deploy-pages.yml"
+  workflow_run:
+    workflows: ["Update market data"]
+    types:
+      - completed
   workflow_dispatch:
 
 permissions:
@@ -19,19 +23,23 @@ concurrency:
 
 jobs:
   build:
+    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
 
       - name: Stage the dashboard as the site root
         run: |
           rm -rf _site
           cp -r public/dashboard _site
-          cp public/favicon.ico _site/favicon.ico
+          cp public/favicon.ico _site/favicon.ico 2>/dev/null || true
           touch _site/.nojekyll
           test -f _site/index.html
-          test -f _site/pack.html
+          test -f _site/funds.html
           test -f _site/data/summary.json
+          test -f _site/data/funds.json
           echo "staged files: $(find _site -type f | wc -l)"
 
       - uses: actions/configure-pages@v5

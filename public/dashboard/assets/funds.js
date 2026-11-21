@@ -45,7 +45,7 @@
   }
   async function load() {
     try {
-      const response = await fetch('data/funds.json', { cache: 'no-store' });
+      const response = await fetch('data/funds.json?t=' + Date.now(), { cache: 'no-store' });
       if (!response.ok) throw new Error('load failed');
       data = await response.json();
       if (!Array.isArray(data.funds)) throw new Error('invalid cache');
