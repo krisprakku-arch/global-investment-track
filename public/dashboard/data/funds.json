@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "SEC Open Data v2",
-  "generated": "2026-11-21T13:59:11.149915+00:00",
+  "generated": "2026-11-21T16:05:31.668275+00:00",
   "status": "partial",
   "funds": [
     {
@@ -3568,7 +3568,7 @@
       "policy": "ผสม",
       "risk": null,
       "asOf": null,
-      "status": "unavailable",
+      "status": "seed",
       "benchmarkName": "",
       "performance": {
         "3M": {
@@ -5232,7 +5232,7 @@
       "policy": "ผสม",
       "risk": null,
       "asOf": null,
-      "status": "unavailable",
+      "status": "seed",
       "benchmarkName": "",
       "performance": {
         "3M": {
@@ -5276,7 +5276,7 @@
       "policy": "ผสม",
       "risk": null,
       "asOf": null,
-      "status": "unavailable",
+      "status": "seed",
       "benchmarkName": "",
       "performance": {
         "3M": {
@@ -5320,7 +5320,7 @@
       "policy": "ผสม",
       "risk": null,
       "asOf": null,
-      "status": "unavailable",
+      "status": "seed",
       "benchmarkName": "",
       "performance": {
         "3M": {
@@ -6444,7 +6444,7 @@
       "policy": "ตราสารหนี้",
       "risk": null,
       "asOf": null,
-      "status": "unavailable",
+      "status": "seed",
       "benchmarkName": "",
       "performance": {
         "3M": {
@@ -6668,7 +6668,7 @@
       "policy": "ตราสารหนี้",
       "risk": null,
       "asOf": null,
-      "status": "unavailable",
+      "status": "seed",
       "benchmarkName": "",
       "performance": {
         "3M": {
@@ -6847,7 +6847,7 @@
       "policy": "ตราสารหนี้",
       "risk": null,
       "asOf": null,
-      "status": "unavailable",
+      "status": "seed",
       "benchmarkName": "",
       "performance": {
         "3M": {
@@ -7161,7 +7161,7 @@
       "policy": "ตราสารหนี้",
       "risk": null,
       "asOf": null,
-      "status": "unavailable",
+      "status": "seed",
       "benchmarkName": "",
       "performance": {
         "3M": {
@@ -7520,7 +7520,7 @@
       "policy": "ผสม",
       "risk": null,
       "asOf": null,
-      "status": "unavailable",
+      "status": "seed",
       "benchmarkName": "",
       "performance": {
         "3M": {
@@ -7564,7 +7564,7 @@
       "policy": "ผสม",
       "risk": null,
       "asOf": null,
-      "status": "unavailable",
+      "status": "seed",
       "benchmarkName": "",
       "performance": {
         "3M": {
@@ -7653,7 +7653,7 @@
       "policy": "ผสม",
       "risk": null,
       "asOf": null,
-      "status": "unavailable",
+      "status": "seed",
       "benchmarkName": "",
       "performance": {
         "3M": {
@@ -7697,7 +7697,7 @@
       "policy": "ผสม",
       "risk": null,
       "asOf": null,
-      "status": "unavailable",
+      "status": "seed",
       "benchmarkName": "",
       "performance": {
         "3M": {
@@ -7741,7 +7741,7 @@
       "policy": "ผสม",
       "risk": null,
       "asOf": null,
-      "status": "unavailable",
+      "status": "seed",
       "benchmarkName": "",
       "performance": {
         "3M": {
@@ -7965,7 +7965,7 @@
       "policy": "ตราสารหนี้",
       "risk": null,
       "asOf": null,
-      "status": "unavailable",
+      "status": "seed",
       "benchmarkName": "",
       "performance": {
         "3M": {
@@ -8009,7 +8009,7 @@
       "policy": "ผสม",
       "risk": null,
       "asOf": null,
-      "status": "unavailable",
+      "status": "seed",
       "benchmarkName": "",
       "performance": {
         "3M": {
@@ -8053,7 +8053,7 @@
       "policy": "ตราสารหนี้",
       "risk": null,
       "asOf": null,
-      "status": "unavailable",
+      "status": "seed",
       "benchmarkName": "",
       "performance": {
         "3M": {
@@ -8187,7 +8187,7 @@
       "policy": "ตราสารหนี้",
       "risk": null,
       "asOf": null,
-      "status": "unavailable",
+      "status": "seed",
       "benchmarkName": "",
       "performance": {
         "3M": {
@@ -8231,7 +8231,7 @@
       "policy": "ตราสารหนี้",
       "risk": null,
       "asOf": null,
-      "status": "unavailable",
+      "status": "seed",
       "benchmarkName": "",
       "performance": {
         "3M": {
@@ -8365,7 +8365,7 @@
       "policy": "ตราสารหนี้",
       "risk": null,
       "asOf": null,
-      "status": "unavailable",
+      "status": "seed",
       "benchmarkName": "",
       "performance": {
         "3M": {
@@ -8454,7 +8454,7 @@
       "policy": "ผสม",
       "risk": null,
       "asOf": null,
-      "status": "unavailable",
+      "status": "seed",
       "benchmarkName": "",
       "performance": {
         "3M": {
@@ -8498,7 +8498,7 @@
       "policy": "ตราสารหนี้",
       "risk": null,
       "asOf": null,
-      "status": "unavailable",
+      "status": "seed",
       "benchmarkName": "",
       "performance": {
         "3M": {
@@ -8542,7 +8542,7 @@
       "policy": "ตราสารหนี้",
       "risk": null,
       "asOf": null,
-      "status": "unavailable",
+      "status": "seed",
       "benchmarkName": "",
       "performance": {
         "3M": {
