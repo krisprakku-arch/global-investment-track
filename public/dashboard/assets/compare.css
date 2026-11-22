@@ -69,3 +69,12 @@
  #compare-chart { height: 330px; }
  .compare-intro h2 { font-size: 21px; }
 }
+
+#tv-attr-logo,
+a#tv-attr-logo,
+[id*="tv-attr-logo"] {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+}

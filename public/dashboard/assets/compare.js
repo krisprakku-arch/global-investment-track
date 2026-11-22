@@ -104,12 +104,14 @@
     if (!hasData) return;
     const LW = globalThis.LightweightCharts, style = getComputedStyle(document.body), color = key => style.getPropertyValue(key).trim();
     chart = LW.createChart($('compare-chart'), {
-      autoSize: true, layout: { background: { type: 'solid', color: color('--bg') }, textColor: color('--text-3'), fontFamily: style.fontFamily },
+      autoSize: true, layout: { attributionLogo: false, background: { type: 'solid', color: color('--bg') }, textColor: color('--text-3'), fontFamily: style.fontFamily },
       grid: { vertLines: { visible: false }, horzLines: { color: color('--grid') } },
       timeScale: { borderColor: color('--border'), rightOffset: 3, minBarSpacing: 1 }, rightPriceScale: { borderColor: color('--border') },
       localization: { priceFormatter: p => `${p.toFixed(2)}%` }, crosshair: { mode: LW.CrosshairMode.Normal },
       handleScroll: { mouseWheel: false, pressedMouseMove: true, horzTouchDrag: true, vertTouchDrag: false },
     });
+    const tvLogo = document.getElementById('tv-attr-logo');
+    if (tvLogo) tvLogo.remove();
     series.forEach((rows, i) => {
       if (rows.length < 2) return;
       const line = chart.addSeries(LW.LineSeries, { color: color(['--compare-blue', '--compare-green', '--compare-orange', '--compare-purple'][i]), lineWidth: 2, priceLineVisible: false, lastValueVisible: false, priceFormat: { type: 'percent' } });
