@@ -16,13 +16,18 @@ CATALOG = ROOT / 'funds.json'
 ENDPOINT = '/v2/fund/daily-info/nav'
 
 
+def normalize_class_name(value):
+    """SEC uses missing/blank/dash for a project's unsplit main share class."""
+    name = text(value).strip()
+    return 'main' if name in ('', '-') else name
+
+
 def normalize(rows, project_id, class_name, start, end):
     values = {}
     ambiguous = set()
+    class_name = normalize_class_name(class_name)
     for row in rows:
-        cn = row.get('fund_class_name') or 'main'
-        if cn == '-':
-            cn = 'main'
+        cn = normalize_class_name(row.get('fund_class_name'))
         if row.get('proj_id') != project_id or cn != class_name:
             continue
         d = str(row.get('nav_date') or '')[:10]
@@ -47,7 +52,7 @@ def merge(previous, fresh, start, end):
 
 
 def management_fee(rows, fund):
-    matches = [r for r in rows if (r.get('fund_class_name') or 'main') == fund.get('className', 'main')
+    matches = [r for r in rows if normalize_class_name(r.get('fund_class_name')) == normalize_class_name(fund.get('className'))
                and r.get('start_date') == fund.get('asOf')
                and ('management fee' in text(r.get('fee_type_desc')).lower()
                     or 'ค่าธรรมเนียมการจัดการ' in text(r.get('fee_type_desc')))]
@@ -75,13 +80,15 @@ def refresh(client, catalog, cache, sources, today):
                 print(f'{symbol}: NAV unavailable ({type(error).__name__}); cache retained')
         rows = projects[pid]
         if rows is not None:
-            fresh = normalize(rows, pid, fund.get('className') or 'main', start, end)
+            fresh = normalize(rows, pid, fund.get('className'), start, end)
             if fresh:
                 result[symbol] = merge(cache.get(symbol, []), fresh, start, end)
                 provenance[symbol] = {'source': 'SEC Open Data v2', 'url': 'https://api.sec.or.th' + ENDPOINT,
                                       'retrieved': today.isoformat(), 'currency': 'THB', 'projectId': pid,
-                                      'className': fund.get('className') or 'main'}
+                                      'className': normalize_class_name(fund.get('className'))}
                 successes += 1
+            else:
+                print(f'{symbol}: no verified NAV for matching project/share class; cache retained')
         if pid not in fees:
             try:
                 fees[pid] = client.items('/v2/fund/factsheet/fees', proj_id=pid, latest='true')

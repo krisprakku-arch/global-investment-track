@@ -67,6 +67,22 @@
   const sign = v => valid(v) ? v > 0 ? 'positive' : v < 0 ? 'negative' : '' : '';
   let selected = [...DEFAULTS], period = '1Y', funds = [], history = {}, sources = {}, chart = null, chartSeries = [], activeWindow = null;
   const fund = symbol => funds.find(f => f.symbol === symbol) || { symbol, name: '' };
+  const chartContainer = $('compare-chart');
+  const attributionSelector = '[id*="tv-attr-logo"], a[href*="tradingview" i]';
+  function removeChartAttribution() {
+    chartContainer?.querySelectorAll(attributionSelector).forEach(el => el.remove());
+  }
+  // Observe the stable container, including chart rebuilds and delayed logo insertion.
+  if (chartContainer) {
+    const attributionObserver = new MutationObserver(removeChartAttribution);
+    attributionObserver.observe(chartContainer, { childList: true, subtree: true, attributes: true, attributeFilter: ['id', 'href'] });
+    removeChartAttribution();
+    window.addEventListener('pagehide', () => attributionObserver.disconnect(), { once: true });
+    window.addEventListener('pageshow', () => {
+      attributionObserver.observe(chartContainer, { childList: true, subtree: true, attributes: true, attributeFilter: ['id', 'href'] });
+      removeChartAttribution();
+    });
+  }
   function renderSelection() {
     $('compare-selection').innerHTML = selected.map((symbol, i) => {
       const f = fund(symbol), last = clean(history[symbol]).at(-1);
@@ -110,8 +126,7 @@
       localization: { priceFormatter: p => `${p.toFixed(2)}%` }, crosshair: { mode: LW.CrosshairMode.Normal },
       handleScroll: { mouseWheel: false, pressedMouseMove: true, horzTouchDrag: true, vertTouchDrag: false },
     });
-    const tvLogo = document.getElementById('tv-attr-logo');
-    if (tvLogo) tvLogo.remove();
+    removeChartAttribution();
     series.forEach((rows, i) => {
       if (rows.length < 2) return;
       const line = chart.addSeries(LW.LineSeries, { color: color(['--compare-blue', '--compare-green', '--compare-orange', '--compare-purple'][i]), lineWidth: 2, priceLineVisible: false, lastValueVisible: false, priceFormat: { type: 'percent' } });

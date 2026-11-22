@@ -1,3 +1,8 @@
+# NAV matching and comparison logo
+- [x] Refresh comparison CSS/JS URLs and continuously remove chart attribution elements.
+- [x] Normalize missing, blank and dash share classes consistently for NAV and fees.
+- [x] Run regression tests and verify the comparison chart on desktop/mobile.
+
 # Fund Compare
 - [x] Add four-fund selector, normalized NAV chart, metrics and navigation.
 - [x] Add SEC NAV history updater, verified starter history and workflow step.

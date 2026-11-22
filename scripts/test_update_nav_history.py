@@ -6,6 +6,45 @@ import update_nav_history as u
 
 
 class NavRules(unittest.TestCase):
+    def test_blank_dash_none_share_classes_map_to_main(self):
+        for value in (None, '', ' ', '\t', '-', ' - ', 'main', ' main '):
+            with self.subTest(value=value):
+                self.assertEqual(u.normalize_class_name(value), 'main')
+
+    def test_nav_normalizes_both_catalog_and_sec_classes(self):
+        for value in (None, '', '  ', '-', ' - '):
+            rows = [dict(proj_id='M1', fund_class_name=value, nav_date='2026-01-01', last_val=12.34)]
+            for catalog_class in (None, '', '-', ' main '):
+                with self.subTest(sec=value, catalog=catalog_class):
+                    self.assertEqual(u.normalize(rows, 'M1', catalog_class, '2025-01-01', '2026-01-02'),
+                                     [{'date': '2026-01-01', 'nav': 12.34}])
+
+    def test_named_classes_remain_distinct_after_trimming(self):
+        rows = [dict(proj_id='M1', fund_class_name=' A ', nav_date='2026-01-01', last_val=15),
+                dict(proj_id='M1', fund_class_name='B', nav_date='2026-01-01', last_val=25)]
+        self.assertEqual(u.normalize(rows, 'M1', ' A ', '2025-01-01', '2026-01-02'),
+                         [{'date': '2026-01-01', 'nav': 15}])
+        self.assertEqual(u.normalize(rows, 'M1', 'main', '2025-01-01', '2026-01-02'), [])
+
+    def test_fee_normalizes_blank_main_class(self):
+        for value in (None, '', '-', ' - '):
+            fee = dict(fund_class_name=value, start_date='2026-10-31', fee_type_desc='Management Fee', actual_value=1.5)
+            with self.subTest(value=value):
+                self.assertEqual(u.management_fee([fee], {'className': '-', 'asOf': '2026-10-31'}), 1.5)
+
+    def test_refresh_updates_all_191_catalog_entries_with_empty_classes(self):
+        class Client:
+            def items(self, path, **params):
+                if path == u.ENDPOINT:
+                    return [dict(proj_id=params['proj_id'], fund_class_name=' - ', nav_date='2026-01-16', last_val=12)]
+                return []
+        catalog = {'funds': [dict(symbol=f'F{i}', projectId=f'M{i}', className=None) for i in range(191)]}
+        data, sources, count = u.refresh(Client(), catalog, {}, {}, date(2026, 1, 16))
+        self.assertEqual(count, 191)
+        for i in range(191):
+            self.assertEqual(data[f'F{i}'], [{'date': '2026-01-16', 'nav': 12}])
+            self.assertEqual(sources[f'F{i}']['className'], 'main')
+
     def test_exact_project_and_class_use_nav_per_unit(self):
         rows = [dict(proj_id='M1', fund_class_name='-', nav_date='2026-01-01', last_val=12.34, net_asset=1000000),
                 dict(proj_id='M1', fund_class_name='OTHER', nav_date='2026-01-01', last_val=90),
