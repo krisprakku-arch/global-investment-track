@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="th" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BBLAM Fund Compare | เปรียบเทียบกองทุนบัวหลวง</title>
+<meta name="description" content="เปรียบเทียบกองทุนบัวหลวงสูงสุด 4 กองทุน ด้วยกราฟผลตอบแทน NAV ความผันผวน Max Drawdown ความเสี่ยงและค่าธรรมเนียม">
+<meta property="og:title" content="BBLAM Fund Compare | เปรียบเทียบกองทุนบัวหลวง">
+<meta property="og:description" content="BCARE เทียบ B-GLOBAL พร้อมกราฟ NAV ย้อนหลังและข้อมูลเชิงลึกจาก SEC และ BBLAM">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="assets/style.css?v=20261120d">
+<link rel="stylesheet" href="assets/compare.css?v=1">
+</head>
+<body class="compare-page">
+<header class="masthead"><div class="mast-inner">
+ <div class="brand"><span class="eyebrow">Fund Research · BBLAM</span><h1>เปรียบเทียบกองทุนบัวหลวง</h1></div>
+ <div class="mast-meta"><div id="compare-asof">กำลังอ่านประวัติ NAV…</div><div>ตรวจข้อมูล 05:00, 09:00, 12:00, 15:00, 18:00 น.<br>จันทร์–เสาร์ เวลาไทย</div></div>
+</div></header>
+<nav class="secnav" aria-label="สลับหน้าการลงทุน"><div class="secnav-inner">
+ <a href="index.html">🌐 ภาพรวมตลาดโลก</a><a href="funds.html">📊 กองทุนบัวหลวง</a><a href="compare.html" aria-current="page">📈 เปรียบเทียบกองทุน</a>
+</div></nav>
+<main class="wrap">
+ <section class="compare-intro"><div><h2>Fund Compare</h2><p>BCARE · B-GLOBAL · กองทุนรวม บลจ.บัวหลวง</p></div><img src="assets/mascot-elephant.png" alt="ช้างทองพิกเซล"></section>
+ <p class="compare-status" id="compare-status" role="status">กำลังโหลดข้อมูลกองทุนและ NAV…</p>
+ <div class="compare-selection" id="compare-selection" aria-label="กองทุนที่เลือก"></div>
+ <div class="compare-search-wrap">
+  <label for="compare-search">ค้นหาและเพิ่มกองทุน</label><input type="search" id="compare-search" placeholder="ค้นหาชื่อหรือรหัสกองทุน เช่น B-INNOTECH" autocomplete="off" aria-controls="compare-results">
+  <div class="compare-results" id="compare-results" aria-label="ผลการค้นหากองทุน" hidden></div>
+  <div class="compare-limit" id="compare-limit" aria-live="polite">สูงสุด 4 กองทุน / ชนิดหน่วยลงทุน</div>
+ </div>
+ <section class="compare-chart-section" aria-label="กราฟเปรียบเทียบผลตอบแทน NAV">
+  <div class="compare-chart-head"><h2>ผลตอบแทน NAV สะสม (%)</h2><div class="compare-timeframes" role="group" aria-label="ช่วงเวลาการเปรียบเทียบ">
+   <button data-period="1M" aria-pressed="false">1M</button><button data-period="3M" aria-pressed="false">3M</button><button data-period="6M" aria-pressed="false">6M</button><button data-period="1Y" aria-pressed="true">1Y</button><button data-period="YTD" aria-pressed="false">YTD</button>
+  </div></div>
+  <div class="compare-legend" id="compare-legend"></div>
+  <div class="compare-plot"><div id="compare-chart"></div><div class="compare-tooltip" id="compare-tooltip" hidden></div><div class="compare-empty" id="compare-empty" hidden>ยังไม่มีประวัติ NAV ที่ยืนยันสำหรับกองทุนที่เลือก</div></div>
+  <p class="compare-chart-note" id="compare-chart-note"></p>
+ </section>
+ <section class="compare-metrics" id="compare-metrics"><h2>ข้อมูลเปรียบเทียบเชิงลึก</h2><div class="scroll-x"><table class="compare-table" id="compare-table" aria-label="ตารางเปรียบเทียบกองทุน"></table></div></section>
+ <p class="compare-note">ผลตอบแทนจากการเปลี่ยนแปลง NAV ต่อหน่วย ไม่รวมเงินปันผลและค่าธรรมเนียมซื้อขาย จึงอาจต่างจากผลตอบแทนใน Factsheet โดยเฉพาะกองทุนปันผล<br>SD ใช้ส่วนเบี่ยงเบนมาตรฐานตัวอย่างของผลตอบแทน NAV รายวัน × √252 · SD และ Max Drawdown คำนวณในช่วงกราฟที่เลือก · ผลตอบแทนตารางใช้ NAV วันทำการล่าสุดก่อนวันเริ่มช่วง และวันสิ้นสุดร่วม · — = ข้อมูลไม่เพียงพอหรือยังไม่ยืนยัน<br>ผลการดำเนินงานในอดีตไม่ได้ยืนยันผลตอบแทนในอนาคต ควรอ่านหนังสือชี้ชวนและความเสี่ยงก่อนลงทุน</p>
+ <footer class="foot">ที่มา: <a href="https://secopendata.sec.or.th/" target="_blank" rel="noopener">SEC Open Data</a> · <a href="https://www.bblam.co.th/products/mutual-funds/historical-daily-navs" target="_blank" rel="noopener">BBLAM NAV ย้อนหลัง</a> · ไม่ใช่เว็บไซต์ทางการของ BBLAM</footer>
+</main>
+<script src="assets/vendor/lightweight-charts.standalone.production.js"></script>
+<script src="assets/compare.js?v=1"></script>
+</body>
+</html>

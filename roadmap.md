@@ -1,3 +1,9 @@
+# Fund Compare
+- [x] Add four-fund selector, normalized NAV chart, metrics and navigation.
+- [x] Add SEC NAV history updater, verified starter history and workflow step.
+- [x] Test calculations, cache preservation and desktop/mobile comparison flow.
+- [ ] Verify live SEC NAV and management fees — no SEC_API_KEY is available in this sandbox; run Update market data on GitHub with Fund v2 daily NAV access.
+
 # BBLAM fund performance
 - [x] Add fund page, search, categories, table and cards.
 - [x] Add SEC v2 updater, honest starter catalog and cache preservation.

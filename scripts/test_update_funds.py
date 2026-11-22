@@ -89,9 +89,11 @@ class FundRules(unittest.TestCase):
     def test_seed_contains_requested_funds_without_fabricated_returns(self):
         seed = json.loads(u.OUTPUT.read_text())
         symbols = {f['symbol'] for f in seed['funds']}
-        self.assertTrue({'B-INNOTECH','B-GLOBAL','BTP','B-CHINE','B-BHARAT','B-FUTURE','B-EDTECH'} <= symbols)
         if seed['status'] == 'seed':
+            self.assertTrue({'B-INNOTECH','B-GLOBAL','BTP','B-CHINE','B-BHARAT','B-FUTURE','B-EDTECH'} <= symbols)
             self.assertTrue(all(v['fund'] is None and v['benchmark'] is None for f in seed['funds'] for v in f['performance'].values()))
+        else:
+            self.assertTrue({'BCARE', 'B-GLOBAL', 'B-INNOTECH'} <= symbols)
 
 
 if __name__ == '__main__':

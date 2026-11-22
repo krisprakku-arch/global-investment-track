@@ -38,8 +38,10 @@ jobs:
           touch _site/.nojekyll
           test -f _site/index.html
           test -f _site/funds.html
+          test -f _site/compare.html
           test -f _site/data/summary.json
           test -f _site/data/funds.json
+          test -f _site/data/nav_history.json
           echo "staged files: $(find _site -type f | wc -l)"
 
       - uses: actions/configure-pages@v5

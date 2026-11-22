@@ -32,6 +32,10 @@ jobs:
         run: python scripts/update_funds.py
         env:
           SEC_API_KEY: ${{ secrets.SEC_API_KEY }}
+      - name: Update BBLAM daily NAV history
+        run: python scripts/update_nav_history.py
+        env:
+          SEC_API_KEY: ${{ secrets.SEC_API_KEY }}
       - name: Commit updated data
         run: |
           git config user.name "github-actions[bot]"

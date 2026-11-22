@@ -1,0 +1,50 @@
+{
+  "BCARE": {
+    "source": "BBLAM official historical daily NAV",
+    "url": "https://www.bblam.co.th/products/mutual-funds/historical-daily-navs?p_code=BCARE&date_from=7&month_from=11&year_from=2025&date_to=22&month_to=11&year_to=2026",
+    "retrieved": "2026-11-22",
+    "dateField": "pf_date_show",
+    "navField": "pf_price",
+    "currency": "THB"
+  },
+  "B-GLOBAL": {
+    "source": "BBLAM official historical daily NAV",
+    "url": "https://www.bblam.co.th/products/mutual-funds/historical-daily-navs?p_code=B-GLOBAL&date_from=7&month_from=11&year_from=2025&date_to=22&month_to=11&year_to=2026",
+    "retrieved": "2026-11-22",
+    "dateField": "pf_date_show",
+    "navField": "pf_price",
+    "currency": "THB"
+  },
+  "B-INNOTECH": {
+    "source": "BBLAM official historical daily NAV",
+    "url": "https://www.bblam.co.th/products/mutual-funds/historical-daily-navs?p_code=B-INNOTECH&date_from=7&month_from=11&year_from=2025&date_to=22&month_to=11&year_to=2026",
+    "retrieved": "2026-11-22",
+    "dateField": "pf_date_show",
+    "navField": "pf_price",
+    "currency": "THB"
+  },
+  "B-BHARATA": {
+    "source": "BBLAM official historical daily NAV",
+    "url": "https://www.bblam.co.th/products/mutual-funds/historical-daily-navs?p_code=B-BHARATA&date_from=7&month_from=11&year_from=2025&date_to=22&month_to=11&year_to=2026",
+    "retrieved": "2026-11-22",
+    "dateField": "pf_date_show",
+    "navField": "pf_price",
+    "currency": "THB"
+  },
+  "BKD": {
+    "source": "BBLAM official historical daily NAV",
+    "url": "https://www.bblam.co.th/products/mutual-funds/historical-daily-navs?p_code=BKD&date_from=7&month_from=11&year_from=2025&date_to=22&month_to=11&year_to=2026",
+    "retrieved": "2026-11-22",
+    "dateField": "pf_date_show",
+    "navField": "pf_price",
+    "currency": "THB"
+  },
+  "B-SMEQ": {
+    "source": "BBLAM official historical daily NAV",
+    "url": "https://www.bblam.co.th/products/mutual-funds/historical-daily-navs?p_code=B-SMEQ&date_from=7&month_from=11&year_from=2025&date_to=22&month_to=11&year_to=2026",
+    "retrieved": "2026-11-22",
+    "dateField": "pf_date_show",
+    "navField": "pf_price",
+    "currency": "THB"
+  }
+}
