@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "SEC Open Data v2",
-  "generated": "2026-11-28T03:49:12.383000+00:00",
+  "generated": "2026-11-28T09:50:09.531524+00:00",
   "status": "partial",
   "funds": [
     {
@@ -6247,9 +6247,7 @@
           "benchmark": 34.48,
           "alpha": -2.07
         }
-      },
-      "managementFee": 0.54,
-      "managementFeeAsOf": "2026-10-31"
+      }
     },
     {
       "symbol": "B-ASIATECHRMF",
