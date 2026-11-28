@@ -2,7 +2,7 @@
   "BCARE": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0324_2550",
     "className": "main"
@@ -10,7 +10,7 @@
   "B-GLOBAL": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0349_2558",
     "className": "main"
@@ -18,7 +18,7 @@
   "B-INNOTECH": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0667_2559",
     "className": "main"
@@ -26,7 +26,7 @@
   "B-BHARATA": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0404_2560",
     "className": "main"
@@ -34,7 +34,7 @@
   "BKD": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0013_2537",
     "className": "main"
@@ -42,7 +42,7 @@
   "B-SMEQ": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0004_2565",
     "className": "main"
@@ -50,7 +50,7 @@
   "B-GLOB-INFRA": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0008_2565",
     "className": "main"
@@ -58,7 +58,7 @@
   "B-INFRA": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0012_2537",
     "className": "main"
@@ -66,7 +66,7 @@
   "BTK": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0014_2537",
     "className": "main"
@@ -74,7 +74,7 @@
   "BTP": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0015_2537",
     "className": "main"
@@ -82,7 +82,7 @@
   "BCAP-USND100": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0016_2563",
     "className": "main"
@@ -90,7 +90,7 @@
   "BCAP-GPE22A UI": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0022_2565",
     "className": "main"
@@ -98,7 +98,7 @@
   "B-ACTIVE": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0023_2547",
     "className": "main"
@@ -106,7 +106,7 @@
   "BKA2": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0024_2537",
     "className": "main"
@@ -114,7 +114,7 @@
   "B-SIP": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0029_2564",
     "className": "main"
@@ -122,7 +122,7 @@
   "B-FLEX": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0033_2544",
     "className": "main"
@@ -130,7 +130,7 @@
   "BBASIC": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0034_2538",
     "className": "main"
@@ -138,7 +138,7 @@
   "BCAP": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0034_2539",
     "className": "main"
@@ -146,7 +146,7 @@
   "BKA": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0035_2536",
     "className": "main"
@@ -154,7 +154,7 @@
   "BCAP-2030 RMF": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0037_2563",
     "className": "main"
@@ -162,7 +162,7 @@
   "BCAP-2040 RMF": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0041_2563",
     "className": "main"
@@ -170,7 +170,7 @@
   "B-TOPTEN": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0042_2562",
     "className": "main"
@@ -178,7 +178,7 @@
   "BCAP-2050 RMF": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0042_2563",
     "className": "main"
@@ -186,7 +186,7 @@
   "B-INCOMESSF": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0044_2563",
     "className": "main"
@@ -194,7 +194,7 @@
   "B-DYNAMIC BOND": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0047_2566",
     "className": "main"
@@ -202,7 +202,7 @@
   "BMSCITH": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0050_2558",
     "className": "main"
@@ -210,7 +210,7 @@
   "B-FUTURESSF": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0053_2563",
     "className": "main"
@@ -218,7 +218,7 @@
   "BCAP-GMA": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0056_2564",
     "className": "main"
@@ -226,7 +226,7 @@
   "B-ASEAN": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0057_2559",
     "className": "main"
@@ -234,7 +234,7 @@
   "BCAP-GMA PLUS": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0057_2564",
     "className": "main"
@@ -242,7 +242,7 @@
   "BFLRMF": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0059_2545",
     "className": "main"
@@ -250,7 +250,7 @@
   "BFRMF": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0062_2545",
     "className": "main"
@@ -258,7 +258,7 @@
   "B-ENHANCED": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0064_2563",
     "className": "main"
@@ -266,7 +266,7 @@
   "BERMF": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0067_2545",
     "className": "main"
@@ -274,7 +274,7 @@
   "BCAP-GW10 SSF": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0068_2563",
     "className": "main"
@@ -282,7 +282,7 @@
   "BCAP-GW90 SSF": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0069_2563",
     "className": "main"
@@ -290,7 +290,7 @@
   "BCAP-GW25 SSF": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0070_2563",
     "className": "main"
@@ -298,7 +298,7 @@
   "BCAP-GW75 SSF": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0072_2563",
     "className": "main"
@@ -306,7 +306,7 @@
   "BCAP-GW50 SSF": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0073_2563",
     "className": "main"
@@ -314,7 +314,7 @@
   "B-INNOTECHSSF": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0078_2565",
     "className": "main"
@@ -322,7 +322,7 @@
   "B-GTORMF": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0082_2564",
     "className": "main"
@@ -330,7 +330,7 @@
   "BCARERMF": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0083_2558",
     "className": "main"
@@ -338,7 +338,7 @@
   "B-ASIASSF": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0084_2565",
     "className": "main"
@@ -346,7 +346,7 @@
   "BMAPS25": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0086_2563",
     "className": "main"
@@ -354,7 +354,7 @@
   "B-FUTURE": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0087_2561",
     "className": "main"
@@ -362,7 +362,7 @@
   "B-US2000P": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0088_2568",
     "className": "main"
@@ -370,7 +370,7 @@
   "B-TOPTENRMF": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0089_2561",
     "className": "main"
@@ -378,7 +378,7 @@
   "B-SI-THAIESG": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0092_2567",
     "className": "main"
@@ -386,7 +386,7 @@
   "BCAP-GW25": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0096_2562",
     "className": "main"
@@ -394,7 +394,7 @@
   "BMAPS55": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0107_2563",
     "className": "main"
@@ -402,7 +402,7 @@
   "BMAPS100": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0108_2563",
     "className": "main"
@@ -410,7 +410,7 @@
   "B-CHINAARMF": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0110_2563",
     "className": "main"
@@ -418,7 +418,7 @@
   "B-FUTURERMF": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0112_2564",
     "className": "main"
@@ -426,7 +426,7 @@
   "BGOLD": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0113_2553",
     "className": "main"
@@ -434,7 +434,7 @@
   "BGOLDRMF": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0116_2553",
     "className": "main"
@@ -442,7 +442,7 @@
   "B-INCOME": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0121_2560",
     "className": "main"
@@ -450,7 +450,7 @@
   "BEQSSF": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0124_2563",
     "className": "main"
@@ -458,7 +458,7 @@
   "B-GTOSSF": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0129_2564",
     "className": "main"
@@ -466,7 +466,7 @@
   "BCAP-MNH UI": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0136_2566",
     "className": "main"
@@ -474,7 +474,7 @@
   "BCAP-GW10": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0146_2562",
     "className": "main"
@@ -482,7 +482,7 @@
   "BCAP-GW50": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0147_2562",
     "className": "main"
@@ -490,7 +490,7 @@
   "B-ASEANRMF": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0148_2560",
     "className": "main"
@@ -498,7 +498,7 @@
   "BCAP-GW75": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0148_2562",
     "className": "main"
@@ -506,7 +506,7 @@
   "BCAP-GW90": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0149_2562",
     "className": "main"
@@ -514,7 +514,7 @@
   "BMAPS100RMF": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0149_2565",
     "className": "main"
@@ -522,7 +522,7 @@
   "BMAPS55RMF": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0167_2565",
     "className": "main"
@@ -530,7 +530,7 @@
   "B-MIXED75": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0170_2550",
     "className": "main"
@@ -538,7 +538,7 @@
   "B-CHINESSF": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0170_2564",
     "className": "main"
@@ -546,7 +546,7 @@
   "B-FINTECH": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0171_2564",
     "className": "main"
@@ -554,7 +554,7 @@
   "BMAPS25RMF": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0178_2565",
     "className": "main"
@@ -562,7 +562,7 @@
   "BCAP-GTAC": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0186_2563",
     "className": "main"
@@ -570,7 +570,7 @@
   "B-ASIARMF": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0197_2561",
     "className": "main"
@@ -578,7 +578,7 @@
   "BSIRIRMF": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0202_2556",
     "className": "main"
@@ -586,7 +586,7 @@
   "B-INNOTECHRMF": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0213_2561",
     "className": "main"
@@ -594,7 +594,7 @@
   "BCAP-EPC UI": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0217_2568",
     "className": "main"
@@ -602,7 +602,7 @@
   "BM70SSF": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0219_2563",
     "className": "main"
@@ -610,7 +610,7 @@
   "BBASICRMF": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0237_2557",
     "className": "main"
@@ -618,7 +618,7 @@
   "IN-RMF": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0259_2551",
     "className": "main"
@@ -626,7 +626,7 @@
   "BSET100": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0259_2560",
     "className": "main"
@@ -634,7 +634,7 @@
   "B-ST": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0266_2567",
     "className": "main"
@@ -642,7 +642,7 @@
   "1I01BSET50": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0277_2568",
     "className": "main"
@@ -650,7 +650,7 @@
   "2I01BSET50": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0278_2568",
     "className": "main"
@@ -658,7 +658,7 @@
   "2X01BSET50": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0279_2568",
     "className": "main"
@@ -666,7 +666,7 @@
   "B-WEALTHD": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0280_2569",
     "className": "main"
@@ -674,7 +674,7 @@
   "B-HY (H75) AI": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0282_2559",
     "className": "main"
@@ -682,7 +682,7 @@
   "B-USALPHA": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0289_2564",
     "className": "main"
@@ -690,7 +690,7 @@
   "B-CNA500P": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0297_2568",
     "className": "main"
@@ -698,7 +698,7 @@
   "B-PREMIUMRMF": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0304_2566",
     "className": "main"
@@ -706,7 +706,7 @@
   "B-HY (UH) AI": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0311_2559",
     "className": "main"
@@ -714,7 +714,7 @@
   "B-DYNAMICSSF": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0313_2566",
     "className": "main"
@@ -722,7 +722,7 @@
   "B-DYNAMICRMF": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0320_2566",
     "className": "main"
@@ -730,7 +730,7 @@
   "BFIXED": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0337_2553",
     "className": "main"
@@ -738,7 +738,7 @@
   "B-IR-FOF": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0343_2562",
     "className": "main"
@@ -746,7 +746,7 @@
   "B-VIETNAM": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0347_2564",
     "className": "main"
@@ -754,7 +754,7 @@
   "B-TREASURY": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0350_2554",
     "className": "main"
@@ -762,7 +762,7 @@
   "BCAP-MSCITH": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0356_2561",
     "className": "main"
@@ -770,7 +770,7 @@
   "BCAP-DHSL": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0364_2567",
     "className": "main"
@@ -778,7 +778,7 @@
   "B-SIPSSF": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0369_2564",
     "className": "main"
@@ -786,7 +786,7 @@
   "BCAP-XDIGI": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0382_2566",
     "className": "main"
@@ -794,7 +794,7 @@
   "BCAP-MONEY": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0384_2565",
     "className": "main"
@@ -802,7 +802,7 @@
   "B-SIPRMF": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0388_2564",
     "className": "main"
@@ -810,7 +810,7 @@
   "BCAP-EPE UI": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0412_2567",
     "className": "main"
@@ -818,7 +818,7 @@
   "BCAPSETTHAIESGX": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0415_2568",
     "className": "main"
@@ -826,7 +826,7 @@
   "B-USALPHARMF": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0416_2564",
     "className": "main"
@@ -834,7 +834,7 @@
   "B-THAICG": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0419_2560",
     "className": "main"
@@ -842,7 +842,7 @@
   "B-USALPHASSF": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0432_2564",
     "className": "main"
@@ -850,7 +850,7 @@
   "BEQD-TESGX": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0434_2568",
     "className": "main"
@@ -858,7 +858,7 @@
   "BM70-TESGX": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0435_2568",
     "className": "main"
@@ -866,7 +866,7 @@
   "BFPVD": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0436_2562",
     "className": "main"
@@ -874,7 +874,7 @@
   "BMDIV-TESGX": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0436_2568",
     "className": "main"
@@ -882,7 +882,7 @@
   "BEPVD": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0437_2562",
     "className": "main"
@@ -890,7 +890,7 @@
   "B-BASICPLUS": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0439_2559",
     "className": "main"
@@ -898,7 +898,7 @@
   "BCAP-MFIX": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0439_2562",
     "className": "main"
@@ -906,7 +906,7 @@
   "B-VIETNAMRMF": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0439_2564",
     "className": "main"
@@ -914,7 +914,7 @@
   "BTPVD": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0444_2562",
     "className": "main"
@@ -922,7 +922,7 @@
   "B-INDIAMRMF": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0452_2560",
     "className": "main"
@@ -930,7 +930,7 @@
   "BCAP-GFIO": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0462_2562",
     "className": "main"
@@ -938,7 +938,7 @@
   "B-WEALTHM": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0464_2569",
     "className": "main"
@@ -946,7 +946,7 @@
   "B-WEALTHB": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0465_2569",
     "className": "main"
@@ -954,7 +954,7 @@
   "B-WEALTHG": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0466_2569",
     "className": "main"
@@ -962,7 +962,7 @@
   "B-GLOB-INFRARMF": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0473_2565",
     "className": "main"
@@ -970,7 +970,7 @@
   "B-GLOB-INFRASSF": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0476_2565",
     "className": "main"
@@ -978,7 +978,7 @@
   "BCAP-VISPE22BUI": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0487_2565",
     "className": "main"
@@ -986,7 +986,7 @@
   "BCAP-USL": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0491_2566",
     "className": "main"
@@ -994,7 +994,7 @@
   "B-GLOBALRMF": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0495_2558",
     "className": "main"
@@ -1002,7 +1002,7 @@
   "BCARESSF": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0503_2565",
     "className": "main"
@@ -1010,7 +1010,7 @@
   "BCAP-CTECH": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0504_2563",
     "className": "main"
@@ -1018,7 +1018,7 @@
   "BKIND": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0511_2557",
     "className": "main"
@@ -1026,7 +1026,7 @@
   "B-VIETNAMSSF": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0520_2565",
     "className": "main"
@@ -1034,7 +1034,7 @@
   "B-USPASSIVE": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0552_2567",
     "className": "main"
@@ -1042,7 +1042,7 @@
   "B-EUPASSIVE": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0553_2567",
     "className": "main"
@@ -1050,7 +1050,7 @@
   "B-GTO": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0554_2563",
     "className": "main"
@@ -1058,7 +1058,7 @@
   "B-SENIOR-X": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0556_2560",
     "className": "main"
@@ -1066,7 +1066,7 @@
   "B-JPPASSIVE": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0557_2567",
     "className": "main"
@@ -1074,7 +1074,7 @@
   "B-ASIATECHRMF": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0568_2567",
     "className": "main"
@@ -1082,7 +1082,7 @@
   "B-EQUITY": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0570_2547",
     "className": "main"
@@ -1090,7 +1090,7 @@
   "B-IR-FOFRMF": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0573_2562",
     "className": "main"
@@ -1098,7 +1098,7 @@
   "BCAP-GPE23A UI": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0576_2566",
     "className": "main"
@@ -1106,7 +1106,7 @@
   "B-CNNEXT": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0577_2568",
     "className": "main"
@@ -1114,7 +1114,7 @@
   "BCAP-AQUANT": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0580_2567",
     "className": "main"
@@ -1122,7 +1122,7 @@
   "BCAP-GOLD": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0581_2563",
     "className": "main"
@@ -1130,7 +1130,7 @@
   "B-STPLUS": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0582_2568",
     "className": "main"
@@ -1138,7 +1138,7 @@
   "BCAP-GMA UH": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0583_2568",
     "className": "main"
@@ -1146,7 +1146,7 @@
   "BCAP-SET": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0584_2563",
     "className": "main"
@@ -1154,7 +1154,7 @@
   "B10/26": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0585_2569",
     "className": "main"
@@ -1162,7 +1162,7 @@
   "BCAP-GMAPLUS UH": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0586_2568",
     "className": "main"
@@ -1170,7 +1170,7 @@
   "BCAP-GFIA": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0590_2562",
     "className": "main"
@@ -1178,7 +1178,7 @@
   "BMSCG": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0594_2560",
     "className": "main"
@@ -1186,7 +1186,7 @@
   "MM-RMF": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0597_2551",
     "className": "main"
@@ -1194,7 +1194,7 @@
   "B11/26": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0609_2569",
     "className": "main"
@@ -1202,7 +1202,7 @@
   "BCAP-GE": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0619_2562",
     "className": "main"
@@ -1210,7 +1210,7 @@
   "BCAP-DISRUPT": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0624_2563",
     "className": "main"
@@ -1218,7 +1218,7 @@
   "BCAP-CLEAN": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0625_2563",
     "className": "main"
@@ -1226,7 +1226,7 @@
   "B12/26": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0625_2569",
     "className": "main"
@@ -1234,7 +1234,7 @@
   "BCAP-XHEALTH": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0627_2563",
     "className": "main"
@@ -1242,7 +1242,7 @@
   "BCAP-SET RMF": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0650_2567",
     "className": "main"
@@ -1250,7 +1250,7 @@
   "B-CHINE-EQ": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0651_2560",
     "className": "main"
@@ -1258,7 +1258,7 @@
   "BCAP-EESPE UI": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0651_2568",
     "className": "main"
@@ -1266,7 +1266,7 @@
   "B-ASIA": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0663_2557",
     "className": "main"
@@ -1274,7 +1274,7 @@
   "B13/26": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0671_2569",
     "className": "main"
@@ -1282,7 +1282,7 @@
   "B-OPP": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0681_2567",
     "className": "main"
@@ -1290,7 +1290,7 @@
   "B-PREMIUM": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0688_2565",
     "className": "main"
@@ -1298,7 +1298,7 @@
   "B-MIXED-THAIESG": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0694_2567",
     "className": "main"
@@ -1306,7 +1306,7 @@
   "BCAP-GPROP": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0697_2562",
     "className": "main"
@@ -1314,7 +1314,7 @@
   "B-EQ-THAIESG": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0698_2567",
     "className": "main"
@@ -1322,7 +1322,7 @@
   "BCAP-TEQ": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0699_2562",
     "className": "main"
@@ -1330,7 +1330,7 @@
   "BCAP-TFACTOR": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0702_2562",
     "className": "main"
@@ -1338,7 +1338,7 @@
   "B-WEALTHCRMF": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0717_2569",
     "className": "main"
@@ -1346,7 +1346,7 @@
   "B-WEALTHMRMF": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0724_2569",
     "className": "main"
@@ -1354,7 +1354,7 @@
   "B-OPPRMF": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0731_2567",
     "className": "main"
@@ -1362,7 +1362,7 @@
   "B-WEALTHBRMF": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0733_2569",
     "className": "main"
@@ -1370,7 +1370,7 @@
   "B-WEALTHDRMF": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0736_2569",
     "className": "main"
@@ -1378,7 +1378,7 @@
   "B-WEALTHGRMF": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0737_2569",
     "className": "main"
@@ -1386,7 +1386,7 @@
   "BSIRICG": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0747_2554",
     "className": "main"
@@ -1394,7 +1394,7 @@
   "B-TOP-THAIESG": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0770_2566",
     "className": "main"
@@ -1402,7 +1402,7 @@
   "B-NIPPON": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0772_2557",
     "className": "main"
@@ -1410,7 +1410,7 @@
   "B-SM-RMF": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0775_2554",
     "className": "main"
@@ -1418,7 +1418,7 @@
   "B14/26": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0786_2569",
     "className": "main"
@@ -1426,7 +1426,7 @@
   "B-GDI": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0814_2569",
     "className": "main"
@@ -1434,7 +1434,7 @@
   "B15/26": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0832_2569",
     "className": "main"
@@ -1442,7 +1442,7 @@
   "B-USPASSIVERMF": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0837_2568",
     "className": "main"
@@ -1450,7 +1450,7 @@
   "B-ASIATECH": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0876_2566",
     "className": "main"
@@ -1458,7 +1458,7 @@
   "B16/26": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0878_2569",
     "className": "main"
@@ -1466,7 +1466,7 @@
   "B17/26": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0927_2569",
     "className": "main"
@@ -1474,7 +1474,7 @@
   "B-TNTV": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0934_2547",
     "className": "main"
@@ -1482,7 +1482,7 @@
   "B-SENIOR": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0943_2555",
     "className": "main"
@@ -1490,7 +1490,7 @@
   "B18/26": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0984_2569",
     "className": "main"
@@ -1498,7 +1498,7 @@
   "B25RMF": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M0991_2550",
     "className": "main"
@@ -1506,7 +1506,7 @@
   "B-WEALTHC": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M1082_2568",
     "className": "main"
@@ -1514,7 +1514,7 @@
   "B19/26": {
     "source": "SEC Open Data v2",
     "url": "https://api.sec.or.th/v2/fund/daily-info/nav",
-    "retrieved": "2026-11-27",
+    "retrieved": "2026-11-28",
     "currency": "THB",
     "projectId": "M1091_2569",
     "className": "main"
